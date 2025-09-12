@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* 🌊 Custom CSS Variables */
+:root {
+  --color-white: #fdfdf7;
+  --color-surface: #0;
+  --color-background: #fdfdf7;
+  --color-green: #27AE60;
+  --color-orange: #F2994A;
+}
+
+/* 🌌 Base Styles */
+body {
+  background-color: var(--color-background);
+  color: white;
+  font-family: var(--font-sans);
+  @apply antialiased;
+}
+
+/* 🧩 Utility Classes (optional custom) */
+.text-white {
+  color: var(--color-white);
+}
+.bg-white {
+  background-color: var(--color-white);
+}
+.bg-surface {
+  background-color: var(--color-surface);
+}
+.bg-background {
+  background-color: var(--color-background);
+}
+.text-green {
+  color: var(--color-green);
+}
+.text-orange {
+  color: var(--color-orange);
+}
+.bg-green {
+  background-color: var(--color-green);
+}
+.bg-orange {
+  background-color: var(--color-orange);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* 🔧 Example rounded universal */
+.rounded-full {
+  border-radius: 9999px;
+}
+
+/* Hide scrollbar but allow scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+
+/* 📁 Font Imports */
+
+@font-face {
+  font-family: "CabinetGrotesk-Bold";
+  src: url("./fonts/CabinetGrotesk-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "CabinetGrotesk-ExtraBold";
+  src: url("./fonts/CabinetGrotesk-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("./fonts/Satoshi-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("./fonts/Satoshi-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("./fonts/Satoshi-Regular.otf") format("opentype");
+}
+
+@theme{
+    --font-cgB: "CabinetGrotesk-Bold", sans-serif;
+}
+
+@theme{
+  --font-cgEB: "CabinetGrotesk-ExtraBold", sans-serif;
+}
+
+@theme{
+  --font-sB: "Satoshi-Bold", sans-serif;  
+}
+
+@theme{
+  --font-sR: "Satoshi-Regular", sans-serif;
+}
+
+@theme{
+  --font-sM: "Satoshi-Medium", sans-serif;
+}
+

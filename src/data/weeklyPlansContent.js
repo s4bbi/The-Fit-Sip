@@ -1,0 +1,185 @@
+// src/data/weeklyPlansContent.js
+export const weeklyPlansContent = {
+  "boost-immunity": [
+    {
+      title: "100 ML Shots",
+      tagline: "Gut Health, Detox & Immunity",
+      price: "₹400/week only",
+      schedule: [
+        { day: "MONDAY", item: "AMLA TULSI SHOT" },
+        { day: "TUESDAY", item: "THE GREEN SHOT" },
+        { day: "WEDNESDAY", item: "TURMERIC & GINGER SHOT" },
+        { day: "THURSDAY", item: "BEETROOT ASHWAGANDHA SHOT" },
+        { day: "FRIDAY", item: "AMLA TULSI SHOT" },
+        { day: "SATURDAY", item: "TURMERIC & GINGER SHOT" },
+      ],
+      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in 100 ML Shots Plan",
+    },
+    {
+      title: "Fresh Lean Detox",
+      tagline: "Weight Management, Gut Health & Detox",
+      price: "₹480/week only",
+      schedule: [
+        { day: "MONDAY", item: "ABC SIP" },
+        { day: "TUESDAY", item: "GREEN JUICE/BAEL MINT JUICE" },
+        { day: "WEDNESDAY", item: "ASH GOURD AMLA" },
+        { day: "THURSDAY", item: "PINEAPPLE CUCUMBER" },
+        { day: "FRIDAY", item: "DETOX H20" },
+        { day: "SATURDAY", item: "ABC SIP" },
+      ],
+      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Fresh Lean Detox Plan",
+    },
+    {
+      title: "Health is Wealth",
+      tagline: "Overall Fitness & Immunity Booster",
+      price: "₹520/week only",
+      schedule: [
+        { day: "MONDAY", item: "CARROT SWINGS SIP" },
+        { day: "TUESDAY", item: "THE GREEN JUICE" },
+        { day: "WEDNESDAY", item: "POMEGRANATE SIP" },
+        { day: "THURSDAY", item: "ASH GOURD AMLA" },
+        { day: "FRIDAY", item: "ABC SIP" },
+        { day: "SATURDAY", item: "CUCUMBER AMLA MINT" },
+      ],
+      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Health is Wealth Plan",
+    },
+  ],
+
+  "weight-management": [
+    {
+      title: "Calm & Control",
+      tagline: "Diabetic & B.P. Control",
+      price: "₹500/week only",
+      schedule: [
+        { day: "MONDAY", item: "ASH GOURD AMLA" },
+        { day: "TUESDAY", item: "KARELA SIP" },
+        { day: "WEDNESDAY", item: "CUCUMBER AMLA MINT" },
+        { day: "THURSDAY", item: "ASH G. KARELA & AMLA" },
+        { day: "FRIDAY", item: "BAEL & MINT JUICE" },
+        { day: "SATURDAY", item: "ASH GOURD AMLA" },
+      ],
+      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Calm & Control Plan",
+    },
+    {
+      title: "Reboot Kickstart",
+      tagline: "Refreshing Health Journey",
+      price: "₹520/week only",
+      schedule: [
+        { day: "MONDAY", item: "ABC SIP" },
+        { day: "TUESDAY", item: "PINEAPPLE CUCUMBER" },
+        { day: "WEDNESDAY", item: "CUCUMBER AMLA MINT" },
+        { day: "THURSDAY", item: "ASH GOURD AMLA" },
+        { day: "FRIDAY", item: "THE GREEN JUICE" },
+        { day: "SATURDAY", item: "DETOX H20" },
+      ],
+      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Reboot Kickstart Plan",
+    },
+  ],
+
+  "skin-glow": [
+    {
+      title: "Clear & Shine",
+      tagline: "Skin Care & Glow",
+      price: "₹500/week only",
+      schedule: [
+        { day: "MONDAY", item: "POMEGRANATE SIP" },
+        { day: "TUESDAY", item: "CUCUMBER AMLA MINT" },
+        { day: "WEDNESDAY", item: "ASH GOURD AMLA" },
+        { day: "THURSDAY", item: "PINEAPPLE CUCUMBER" },
+        { day: "FRIDAY", item: "BEETROOT BOOSTER" },
+        { day: "SATURDAY", item: "POMEGRANATE SIP" },
+      ],
+      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Clear & Shine Plan",
+    },
+    {
+      title: "The Fruit Bowl Plan",
+      tagline: "Fresh Cut Fruits",
+      price: "₹550/week only",
+      schedule: [
+        { day: "MONDAY", item: "FRESH FRUIT BOWL" },
+        { day: "TUESDAY", item: "FRESH FRUIT BOWL" },
+        { day: "WEDNESDAY", item: "FRESH FRUIT BOWL" },
+        { day: "THURSDAY", item: "FRESH FRUIT BOWL" },
+        { day: "FRIDAY", item: "FRESH FRUIT BOWL" },
+        { day: "SATURDAY", item: "FRESH FRUIT BOWL" },
+      ],
+      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in The Fruit Bowl Plan",
+    },
+  ],
+
+  "energy": [
+    {
+      title: "Pure Refresh",
+      tagline: "Morning Fresh Start",
+      price: "₹480/week only",
+      schedule: [
+        { day: "MONDAY", item: "ABC SIP" },
+        { day: "TUESDAY", item: "CARROT SWINGS SIP" },
+        { day: "WEDNESDAY", item: "POMEGRANATE SIP" },
+        { day: "THURSDAY", item: "CUCUMBER AMLA MINT" },
+        { day: "FRIDAY", item: "PINEAPPLE CUCUMBER" },
+        { day: "SATURDAY", item: "ABC SIP" },
+      ],
+      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Pure Refresh Plan",
+    },
+    {
+      title: "Balance & Boost",
+      tagline: "Everyday Wellness Kit (Juices, shots & green teas)",
+      price: "₹600/week only",
+      schedule: [
+        { day: "MONDAY", item: "THE GREEN SHOT" },
+        { day: "TUESDAY", item: "JUICE + GREEN TEA" },
+        { day: "WEDNESDAY", item: "SHOT + JUICE" },
+        { day: "THURSDAY", item: "OATS + GREEN TEA" },
+        { day: "FRIDAY", item: "SHOT + JUICE" },
+        { day: "SATURDAY", item: "JUICE + GREEN TEA" },
+      ],
+      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Balance & Boost Plan",
+    },
+  ],
+
+  "nutrition": [
+    {
+      title: "OverNight Oats",
+      tagline: "Fuel Your Morning with Oats Jar",
+      price: "₹500/week only",
+      schedule: [
+        { day: "MONDAY", item: "MANGO DREAM JAR" },
+        { day: "TUESDAY", item: "EXOTIC FRUITS JAR" },
+        { day: "WEDNESDAY", item: "COCOA PEANUT JAR" },
+        { day: "THURSDAY", item: "POWER CARROT JAR" },
+        { day: "FRIDAY", item: "EXOTIC FRUITS JAR" },
+        { day: "SATURDAY", item: "MANGO DREAM JAR" },
+      ],
+      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in OverNight Oats Plan",
+    },
+    {
+      title: "Healthy Breakfast",
+      tagline: "Fresh, Filling & Balanced",
+      price: "₹550/week only",
+      schedule: [
+        { day: "MONDAY", item: "SMOOTHIE" },
+        { day: "TUESDAY", item: "FRUIT BOWL" },
+        { day: "WEDNESDAY", item: "OATS JAR" },
+        { day: "THURSDAY", item: "SMOOTHIE" },
+        { day: "FRIDAY", item: "FRUIT BOWL" },
+        { day: "SATURDAY", item: "OATS JAR" },
+      ],
+      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Healthy Breakfast Plan",
+    },
+    {
+      title: "The Smoothies Plan",
+      tagline: "Fresh Smoothie Bowls",
+      price: "₹580/week only",
+      schedule: [
+        { day: "MONDAY", item: "SMOOTHIE BOWL" },
+        { day: "TUESDAY", item: "SMOOTHIE BOWL" },
+        { day: "WEDNESDAY", item: "SMOOTHIE BOWL" },
+        { day: "THURSDAY", item: "SMOOTHIE BOWL" },
+        { day: "FRIDAY", item: "SMOOTHIE BOWL" },
+        { day: "SATURDAY", item: "SMOOTHIE BOWL" },
+      ],
+      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in The Smoothies Plan",
+    },
+  ],
+};
