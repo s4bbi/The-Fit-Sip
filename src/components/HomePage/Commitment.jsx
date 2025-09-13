@@ -3,7 +3,7 @@ import star from "../../assets/Icons/star.svg";
 
 const Commitment = () => {
   return (
-    <section className="w-screen mx-auto bg-green px-6 md:px-20 py-12 my-8">
+    <section className="w-screen mx-auto bg-green px-6 md:px-20 py-6 md:py-12 mt-6 mb-4 md:my-8">
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-8 text-white">
         
         {/* Left heading with icons */}

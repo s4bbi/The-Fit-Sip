@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom"; // ✅ useLocation added
 import { FaWhatsapp } from "react-icons/fa";
 import { gsap } from "gsap";
 import logo from "../../assets/fitsip-logo.svg";
@@ -10,6 +10,12 @@ const Header = () => {
   const menuRef = useRef(null);
   const headerRef = useRef(null);
   const hamburgerRef = useRef(null);
+  const location = useLocation(); // ✅ track route changes
+
+  // Close mobile menu on route change
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location]);
 
   // GSAP intro animation
   useEffect(() => {
@@ -91,7 +97,7 @@ const Header = () => {
         </Link>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex -mr-16 items-center space-x-8 text-black animate-header h-full">
+        <nav className="hidden md:flex -mr-14 items-center space-x-8 text-black animate-header h-full">
           <Link to="/" className="flex items-center hover:text-green-500 transition">
             HOME
           </Link>
