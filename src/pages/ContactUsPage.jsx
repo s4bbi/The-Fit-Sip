@@ -1,6 +1,6 @@
 // src/pages/ContactPage.jsx
 import React, { useEffect, useRef } from "react";
-import { Helmet } from "react-helmet-async"; // ✅ SEO
+import { Title, Meta, Link as MetaLink } from "react-head"; // ✅ SEO with react-head
 import { FaWhatsapp, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -37,24 +37,23 @@ const ContactPage = () => {
   return (
     <section ref={sectionRef} className="bg-[#FBFBF4] px-6 md:px-20 py-16">
       {/* ✅ SEO Meta Tags */}
-      <Helmet>
-        <title>The Fit Sip - Fresh Juices in Gurgaon | Contact Us</title>
-        <meta
-          name="description"
-          content="Get in touch with The Fit Sip - fresh juices, smoothies, salads & healthy meals delivered before 8 AM in Gurgaon. Call, WhatsApp, or email us today."
-        />
-        <meta
-          name="keywords"
-          content="contact The Fit Sip, juice delivery Gurgaon, smoothie delivery Gurgaon, health food Gurgaon, WhatsApp juice order Gurgaon"
-        />
-        <meta property="og:title" content="Contact The Fit Sip" />
-        <meta
-          property="og:description"
-          content="Reach out to The Fit Sip team for fresh juices & healthy meals in Gurgaon. Available on call, WhatsApp, and email."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://thefitsip.com/contact" />
-      </Helmet>
+      <Title>The Fit Sip - Fresh Juices in Gurgaon | Contact Us</Title>
+      <Meta
+        name="description"
+        content="Get in touch with The Fit Sip - fresh juices, smoothies, salads & healthy meals delivered before 8 AM in Gurgaon. Call, WhatsApp, or email us today."
+      />
+      <Meta
+        name="keywords"
+        content="contact The Fit Sip, juice delivery Gurgaon, smoothie delivery Gurgaon, health food Gurgaon, WhatsApp juice order Gurgaon"
+      />
+      <Meta property="og:title" content="Contact The Fit Sip" />
+      <Meta
+        property="og:description"
+        content="Reach out to The Fit Sip team for fresh juices & healthy meals in Gurgaon. Available on call, WhatsApp, and email."
+      />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:url" content="https://thefitsip.com/contact" />
+      <MetaLink rel="canonical" href="https://thefitsip.com/contact" />
 
       {/* Hero */}
       <div className="text-center mb-12">

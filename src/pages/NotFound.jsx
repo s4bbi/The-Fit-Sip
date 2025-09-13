@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { gsap } from "gsap";
+import { Title, Meta } from "react-head"; // ✅ SEO with react-head
 
 const NotFound = () => {
   const containerRef = useRef(null);
@@ -29,6 +30,14 @@ const NotFound = () => {
       ref={containerRef}
       className="flex flex-col items-center justify-center h-screen bg-[#FBFBF4] text-center px-6 -mt-24"
     >
+      {/* ✅ SEO Meta Tags */}
+      <Title>404 Page Not Found | The Fit Sip</Title>
+      <Meta
+        name="description"
+        content="Oops! The page you’re looking for doesn’t exist. Return to The Fit Sip homepage for healthy juices, smoothies, and meal plans in Gurgaon."
+      />
+      <Meta name="robots" content="noindex, nofollow" />
+
       {/* Big 404 */}
       <h1 className="animate-404 text-6xl md:text-8xl font-cgEB text-green mb-4">
         404

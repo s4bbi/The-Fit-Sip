@@ -38,7 +38,7 @@ const Hero = () => {
           begin your day?
         </h1>
 
-        <p className="text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl font-sR max-w-2xl mb-6 px-4 sm:px-6 md:px-12">
+        <p className="text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl font-sR max-w-3xl mb-6 px-4 sm:px-6 md:px-12">
           Weekly subscription delivery of fresh juices, shots, salads, oats & smoothies{" "}
           <br className="hidden sm:block" />
           free before 8 AM in Gurgaon.

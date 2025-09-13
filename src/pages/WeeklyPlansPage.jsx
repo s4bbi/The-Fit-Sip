@@ -1,7 +1,7 @@
 // src/pages/WeeklyPlansPage.jsx
 import React, { useState, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
-import { Helmet } from "react-helmet-async"; // ✅ SEO
+import { Title, Meta } from "react-head"; // ✅ SEO with react-head
 import { gsap } from "gsap";
 import { weeklyPlansContent } from "../data/weeklyPlansContent";
 import WeeklyHero from "../components/WeeklyPlans/WeeklyHero";
@@ -48,24 +48,22 @@ const WeeklyPlansPage = () => {
   return (
     <section className="w-full bg-[#FBFBF4] px-6 md:px-20 py-12">
       {/* ✅ SEO Meta Tags */}
-      <Helmet>
-        <title>The Fit Sip | Weekly Health Plans</title>
-        <meta
-          name="description"
-          content="Choose from our 5 weekly subscription plans: Boost Immunity, Weight Management, Skin Glow, Energy Boost, and Nutritious Meals. Fresh delivery daily in Gurgaon."
-        />
-        <meta
-          name="keywords"
-          content="weekly health plans, juice detox subscription, smoothie plan Gurgaon, weight loss drinks, skin glow smoothies, healthy breakfast Gurgaon, Fit Sip"
-        />
-        <meta property="og:title" content="Weekly Health Plans | The Fit Sip" />
-        <meta
-          property="og:description"
-          content="Custom weekly subscription plans with juices, shots, salads, oats & smoothies. Delivered fresh daily in Gurgaon."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://thefitsip.com/weekly-plans" />
-      </Helmet>
+      <Title>The Fit Sip | Weekly Health Plans</Title>
+      <Meta
+        name="description"
+        content="Choose from our 5 weekly subscription plans: Boost Immunity, Weight Management, Skin Glow, Energy Boost, and Nutritious Meals. Fresh delivery daily in Gurgaon."
+      />
+      <Meta
+        name="keywords"
+        content="weekly health plans, juice detox subscription, smoothie plan Gurgaon, weight loss drinks, skin glow smoothies, healthy breakfast Gurgaon, Fit Sip"
+      />
+      <Meta property="og:title" content="Weekly Health Plans | The Fit Sip" />
+      <Meta
+        property="og:description"
+        content="Custom weekly subscription plans with juices, shots, salads, oats & smoothies. Delivered fresh daily in Gurgaon."
+      />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:url" content="https://thefitsip.com/weekly-plans" />
 
       <WeeklyHero />
 

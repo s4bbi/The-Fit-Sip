@@ -1,5 +1,7 @@
+// src/App.jsx
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import { HeadProvider } from "react-head"; // ✅ use react-head instead
 import ScrollToTop from "./components/Common/ScrollToTop.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import JuicesPage from "./pages/JuicesPage.jsx";
@@ -12,11 +14,10 @@ import WeeklyPlansPage from "./pages/WeeklyPlansPage.jsx";
 import ContactUsPage from "./pages/ContactUsPage.jsx";
 import TermsOfService from "./components/Common/TermsOfService.jsx";
 import NotFound from "./pages/NotFound.jsx";
-import { HelmetProvider } from "react-helmet-async";
 
 const App = () => {
   return (
-    <HelmetProvider>
+    <HeadProvider>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -26,13 +27,12 @@ const App = () => {
         <Route path="/salads" element={<SaladsPage />} />
         <Route path="/oats" element={<OatsPage />} />
         <Route path="/smoothies" element={<SmoothiesPage />} />
-        <Route path="*" element={<NotFound />} />
         <Route path="/weekly-plans" element={<WeeklyPlansPage />} />
         <Route path="/contact" element={<ContactUsPage />} />
         <Route path="/terms" element={<TermsOfService />} />
-
-    </Routes>
-    </HelmetProvider>
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </HeadProvider>
   );
 };
 

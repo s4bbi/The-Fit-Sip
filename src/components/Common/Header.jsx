@@ -84,14 +84,14 @@ const Header = () => {
       </div>
 
       {/* Main Header */}
-      <div className="flex items-center justify-between h-16 px-6 md:px-14 lg:px-20 font-sB">
+      <div className="flex items-center justify-between h-16 px-6 md:px-14 lg:px-20 font-sB ">
         {/* Logo */}
         <Link to="/" className="animate-header flex items-center">
           <img src={logo} alt="FitSip Logo" className="h-8" />
         </Link>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex items-center space-x-8 text-black animate-header h-full">
+        <nav className="hidden md:flex -mr-16 items-center space-x-8 text-black animate-header h-full">
           <Link to="/" className="flex items-center hover:text-green-500 transition">
             HOME
           </Link>
