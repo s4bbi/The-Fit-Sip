@@ -78,35 +78,35 @@ body {
 
 @font-face {
   font-family: "CabinetGrotesk-Bold";
-  src: url("./fonts/CabinetGrotesk-Bold.otf") format("opentype");
+  src: url("../public/fonts/CabinetGrotesk-Bold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "CabinetGrotesk-ExtraBold";
-  src: url("./fonts/CabinetGrotesk-ExtraBold.otf") format("opentype");
+  src: url("../public/fonts/CabinetGrotesk-ExtraBold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Satoshi-Bold";
-  src: url("./fonts/Satoshi-Bold.otf") format("opentype");
+  src: url("../public/fonts/Satoshi-Bold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Satoshi-Medium";
-  src: url("./fonts/Satoshi-Medium.otf") format("opentype");
+  src: url("../public/fonts/Satoshi-Medium.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Satoshi-Regular";
-  src: url("./fonts/Satoshi-Regular.otf") format("opentype");
+  src: url("../public/fonts/Satoshi-Regular.otf") format("opentype");
 }
 
 @theme{
-    --font-cgB: "CabinetGrotesk-Bold", serif;
+    --font-cgB: "CabinetGrotesk-Bold", sans-serif;
 }
 
 @theme{
-  --font-cgEB: "CabinetGrotesk-ExtraBold", serif;
+  --font-cgEB: "CabinetGrotesk-ExtraBold", sans-serif;
 }
 
 @theme{
