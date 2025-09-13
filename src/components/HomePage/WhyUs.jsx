@@ -20,22 +20,22 @@ export default function WhyUs() {
       <div className="text-center">
         {/* Section Title */}
         <h2 className="text-2xl md:text-3xl font-cgEB text-black mb-8 sm:mb-12">
-          Our Commitment to You!!
+          Why Us?
         </h2>
 
-        {/* Row of Icons (same layout across all screens) */}
-        <div className="flex justify-center items-center gap-6 sm:gap-8 md:gap-12 overflow-x-auto no-scrollbar">
+        {/* Grid of Icons (always fit in one row) */}
+        <div className="grid grid-cols-5 gap-4 sm:gap-8 md:gap-12">
           {items.map((item, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center justify-center text-center min-w-[100px] sm:min-w-[120px] md:min-w-[140px]"
+              className="flex flex-col items-center justify-center text-center"
             >
               <img
                 src={item.icon}
                 alt={item.text}
-                className="w-12 h-12 sm:w-14 sm:h-14 md:w-20 md:h-20 mb-3 sm:mb-4"
+                className="w-8 h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 mb-2 sm:mb-3"
               />
-              <p className="text-xs sm:text-sm md:text-base font-sM text-gray-800">
+              <p className="text-[10px] sm:text-sm md:text-base font-sM text-gray-800">
                 {item.text}
               </p>
             </div>
