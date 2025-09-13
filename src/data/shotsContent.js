@@ -1,10 +1,10 @@
 // src/data/shotsContent.js
 
 // Import shot images (replace with actual filenames in your assets folder)
-import gingerTurmeric from "../assets/Images/juicenshots/ging-turm.jpg";
-import amlaTulsi from "../assets/Images/juicenshots/amla.jpg";
-import beetrootAshwag from "../assets/Images/juicenshots/beetroot.jpg";
-import greenShot from "../assets/Images/juicenshots/green-shot.jpg";
+import gingerTurmeric from "../assets/Images/juicenshots/ging-turm.webp";
+import amlaTulsi from "../assets/Images/juicenshots/amla.webp";
+import beetrootAshwag from "../assets/Images/juicenshots/beetroot.webp";
+import greenShot from "../assets/Images/juicenshots/green-shot.webp";
 
 // Replace with your WhatsApp number
 const whatsappBase = "https://wa.me/919876543210?text=";

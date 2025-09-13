@@ -1,18 +1,18 @@
 // src/data/juicesContent.js
 
 // Import juice images
-import abcJuice from "../assets/Images/juicenshots/abc.jpg";
-import carrotSwings from "../assets/Images/juicenshots/carrot.jpg";
-import greenJuice from "../assets/Images/juicenshots/green.jpg";
-import ashgourdAmla from "../assets/Images/juicenshots/ash.jpg";
-import metabolismBooster from "../assets/Images/juicenshots/metabolism.jpg";
-import hydratingBooster from "../assets/Images/juicenshots/hydrating.jpg";
-import pineappleCucumb from "../assets/Images/juicenshots/pineapple.jpg";
-import baelMint from "../assets/Images/juicenshots/bael.jpg";
-import karelaSip from "../assets/Images/juicenshots/karela.jpg";
-import detoxH2o from "../assets/Images/juicenshots/detox.jpg";
-import cucumberAmla from "../assets/Images/juicenshots/cucumb-amla.jpg";
-import ashgKarelaAmla from "../assets/Images/juicenshots/ash-karela.jpg";
+import abcJuice from "../assets/Images/juicenshots/abc.webp";
+import carrotSwings from "../assets/Images/juicenshots/carrot.webp";
+import greenJuice from "../assets/Images/juicenshots/green.webp";
+import ashgourdAmla from "../assets/Images/juicenshots/ash.webp";
+import metabolismBooster from "../assets/Images/juicenshots/metabolism.webp";
+import hydratingBooster from "../assets/Images/juicenshots/hydrating.webp";
+import pineappleCucumb from "../assets/Images/juicenshots/pineapple.webp";
+import baelMint from "../assets/Images/juicenshots/bael.webp";
+import karelaSip from "../assets/Images/juicenshots/karela.webp";
+import detoxH2o from "../assets/Images/juicenshots/detox.webp";
+import cucumberAmla from "../assets/Images/juicenshots/cucumb-amla.webp";
+import ashgKarelaAmla from "../assets/Images/juicenshots/ash-karela.webp";
 
 // Replace with your WhatsApp number
 const whatsappBase = "https://wa.me/919876543210?text=";
