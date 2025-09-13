@@ -38,7 +38,7 @@ const WeeklyReviews = () => {
   return (
     <section
       ref={sectionRef}
-      className="bg-[#FBFBF4] px-6 md:px-20 py-12 border-t border-b"
+      className="bg-white px-6 md:px-20 pt-12 border-t border-b"
     >
       {/* Heading */}
       <h2 className="text-xl sm:text-2xl md:text-3xl font-cgEB text-center mb-6 text-black">

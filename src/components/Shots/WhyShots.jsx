@@ -9,12 +9,12 @@ const WhyShots = () => {
         {/* Left Content */}
         <div className="flex-1 text-center md:text-left">
           <h2 className="text-2xl md:text-3xl font-cgEB text-gray-900 mb-4">
-            Why our <span className="text-green">Overnight Oats?</span>
+            Why our <span className="text-green">Shots?</span>
           </h2>
           <p className="text-gray-700 text-sm sm:text-base md:text-lg font-sR leading-relaxed">
-            Overnight oats are not just convenient — they’re a powerhouse of
-          nutrition that fuels your body and keeps you satisfied throughout the
-          day.
+            Our cold-pressed shots are made with superfoods and adaptogens
+            that help strengthen immunity, boost metabolism, and keep you
+            energized. Compact, convenient, and crafted fresh every morning.
           </p>
         </div>
 

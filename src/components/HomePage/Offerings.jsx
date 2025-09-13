@@ -18,7 +18,7 @@ const Offerings = () => {
   };
 
   return (
-    <section className="bg-[#FBFBF4] px-6 md:px-20 my-8 max-w-screen mx-auto relative" id="offerings">
+    <section className="bg-white px-6 md:px-20 my-8 max-w-screen mx-auto relative" id="offerings">
       {/* Section Title */}
       <h2 className="text-2xl md:text-3xl font-cgEB mb-10 text-gray-900 text-center">
         What We Offer ?

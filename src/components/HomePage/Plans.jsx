@@ -5,7 +5,7 @@ import plansContent from "../../data/plansContent.js";
 
 const Plans = () => {
   return (
-    <section className="max-w-screen mx-auto bg-[#FBFBF4] px-6 md:px-20 my-8">
+    <section className="max-w-screen mx-auto bg-white px-6 md:px-20 my-8">
       <div>
         {/* Centered title and subtitle */}
         <div className="text-center mb-10">

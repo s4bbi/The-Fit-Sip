@@ -27,7 +27,7 @@ const NotFound = () => {
   return (
     <section
       ref={containerRef}
-      className="flex flex-col items-center justify-center h-screen bg-[#FBFBF4] text-center px-6"
+      className="flex flex-col items-center justify-center h-screen bg-[#FBFBF4] text-center px-6 -mt-24"
     >
       {/* Big 404 */}
       <h1 className="animate-404 text-6xl md:text-8xl font-cgEB text-green mb-4">

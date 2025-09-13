@@ -1,5 +1,8 @@
-import React, { useState, useEffect } from "react";
+// src/pages/WeeklyPlansPage.jsx
+import React, { useState, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet-async"; // ✅ SEO
+import { gsap } from "gsap";
 import { weeklyPlansContent } from "../data/weeklyPlansContent";
 import WeeklyHero from "../components/WeeklyPlans/WeeklyHero";
 import WeeklyPlansGrid from "../components/WeeklyPlans/WeeklyGrid";
@@ -16,16 +19,54 @@ const tabs = [
 const WeeklyPlansPage = () => {
   const location = useLocation();
   const [activeTab, setActiveTab] = useState("boost-immunity");
+  const gridRef = useRef(null);
 
-  // On mount, check if a tab is passed via state
+  // Check for tab passed from navigation
   useEffect(() => {
     if (location.state?.tab) {
       setActiveTab(location.state.tab);
     }
   }, [location.state]);
 
+  // Animate grid on tab change
+  useEffect(() => {
+    if (gridRef.current) {
+      gsap.fromTo(
+        gridRef.current.querySelectorAll(".plan-card"),
+        { y: 40, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.6,
+          stagger: 0.15,
+          ease: "power3.out",
+        }
+      );
+    }
+  }, [activeTab]);
+
   return (
     <section className="w-full bg-[#FBFBF4] px-6 md:px-20 py-12">
+      {/* ✅ SEO Meta Tags */}
+      <Helmet>
+        <title>The Fit Sip | Weekly Health Plans</title>
+        <meta
+          name="description"
+          content="Choose from our 5 weekly subscription plans: Boost Immunity, Weight Management, Skin Glow, Energy Boost, and Nutritious Meals. Fresh delivery daily in Gurgaon."
+        />
+        <meta
+          name="keywords"
+          content="weekly health plans, juice detox subscription, smoothie plan Gurgaon, weight loss drinks, skin glow smoothies, healthy breakfast Gurgaon, Fit Sip"
+        />
+        <meta property="og:title" content="Weekly Health Plans | The Fit Sip" />
+        <meta
+          property="og:description"
+          content="Custom weekly subscription plans with juices, shots, salads, oats & smoothies. Delivered fresh daily in Gurgaon."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://thefitsip.com/weekly-plans" />
+      </Helmet>
+
       <WeeklyHero />
 
       {/* Tabs */}
@@ -45,8 +86,10 @@ const WeeklyPlansPage = () => {
         ))}
       </div>
 
-      {/* Plans Grid */}
-      <WeeklyPlansGrid plans={weeklyPlansContent[activeTab] || []} />
+      {/* Plans Grid with GSAP */}
+      <div ref={gridRef}>
+        <WeeklyPlansGrid plans={weeklyPlansContent[activeTab] || []} />
+      </div>
 
       <WeeklyReviews />
     </section>

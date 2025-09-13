@@ -1,5 +1,6 @@
 // src/pages/ContactPage.jsx
 import React, { useEffect, useRef } from "react";
+import { Helmet } from "react-helmet-async"; // ✅ SEO
 import { FaWhatsapp, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -35,6 +36,26 @@ const ContactPage = () => {
 
   return (
     <section ref={sectionRef} className="bg-[#FBFBF4] px-6 md:px-20 py-16">
+      {/* ✅ SEO Meta Tags */}
+      <Helmet>
+        <title>The Fit Sip - Fresh Juices in Gurgaon | Contact Us</title>
+        <meta
+          name="description"
+          content="Get in touch with The Fit Sip - fresh juices, smoothies, salads & healthy meals delivered before 8 AM in Gurgaon. Call, WhatsApp, or email us today."
+        />
+        <meta
+          name="keywords"
+          content="contact The Fit Sip, juice delivery Gurgaon, smoothie delivery Gurgaon, health food Gurgaon, WhatsApp juice order Gurgaon"
+        />
+        <meta property="og:title" content="Contact The Fit Sip" />
+        <meta
+          property="og:description"
+          content="Reach out to The Fit Sip team for fresh juices & healthy meals in Gurgaon. Available on call, WhatsApp, and email."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://thefitsip.com/contact" />
+      </Helmet>
+
       {/* Hero */}
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-4xl font-cgEB text-gray-900 mb-4">

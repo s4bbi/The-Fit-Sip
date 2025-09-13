@@ -5,7 +5,7 @@ import logo from "../../assets/fitsip-logo.svg";
 export default function Footer() {
   return (
     <footer id="footer" className="bg-gray-900 text-gray-300 py-8 px-6">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
+      <div className="max-w-screen mx-auto flex flex-col md:flex-row justify-between items-center px-6 md:px-14">
         
         {/* Logo + Copyright */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
