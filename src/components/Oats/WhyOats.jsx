@@ -1,5 +1,5 @@
 import React from "react";
-import oats from "../../assets/Images/oatsjar1.jpg"; // replace with your actual image
+import oats from "../../assets/Images/oatsjar1.png"; // replace with your actual image
 
 const WhyOats = () => {
   return (

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import WeeklyHeroImg from "../../assets/Images/weekly-hero.jpg";
+import WeeklyHeroImg from "../../assets/Images/weekly-hero.png";
 
 const WeeklyHero = () => {
   const heroRef = useRef(null);

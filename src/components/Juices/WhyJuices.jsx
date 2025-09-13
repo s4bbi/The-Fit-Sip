@@ -1,5 +1,5 @@
 import React from "react";
-import juiceBottle from "../../assets/Images/juice-bottle.jpg"; 
+import juiceBottle from "../../assets/Images/juice-bottle.png"; 
 
 const WhyJuices = () => {
   return (
