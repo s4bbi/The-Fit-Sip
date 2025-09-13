@@ -10,8 +10,8 @@ const smoothiesContent = [
     image: berryBlast,
     miniaturePrice: "₹109",
     regularPrice: "₹209",
-    whatsappMiniUrl: "https://wa.me/919876543210?text=I want to order Miniature Berry Blast",
-    whatsappRegularUrl: "https://wa.me/919876543210?text=I want to order Regular Berry Blast"
+    whatsappMiniUrl: "https://wa.me/9036024955?text=I want to order Miniature Berry Blast",
+    whatsappRegularUrl: "https://wa.me/9036024955?text=I want to order Regular Berry Blast"
   },
   {
     title: "MANGO PUNCH",
@@ -20,8 +20,8 @@ const smoothiesContent = [
     image: mangoPunch,
     miniaturePrice: "₹109",
     regularPrice: "₹209",
-    whatsappMiniUrl: "https://wa.me/919876543210?text=I want to order Miniature Mango Punch",
-    whatsappRegularUrl: "https://wa.me/919876543210?text=I want to order Regular Mango Punch"
+    whatsappMiniUrl: "https://wa.me/9036024955?text=I want to order Miniature Mango Punch",
+    whatsappRegularUrl: "https://wa.me/9036024955?text=I want to order Regular Mango Punch"
   },
   {
     title: "STRAWBERRY DREAM",
@@ -30,8 +30,8 @@ const smoothiesContent = [
     image: strawberryDream,
     miniaturePrice: "₹109",
     regularPrice: "₹209",
-    whatsappMiniUrl: "https://wa.me/919876543210?text=I want to order Miniature Strawberry Dream",
-    whatsappRegularUrl: "https://wa.me/919876543210?text=I want to order Regular Strawberry Dream"
+    whatsappMiniUrl: "https://wa.me/9036024955?text=I want to order Miniature Strawberry Dream",
+    whatsappRegularUrl: "https://wa.me/9036024955?text=I want to order Regular Strawberry Dream"
   }
 ];
 

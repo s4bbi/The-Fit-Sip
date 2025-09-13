@@ -5,7 +5,7 @@ import saladbowl1 from "../assets/Images/saladbowl1.jpg";
 import saladbowl2 from "../assets/Images/saladbowl2.jpg";
 
 // Replace with your WhatsApp number
-const whatsappBase = "https://wa.me/919876543210?text=";
+const whatsappBase = "https://wa.me/9036024955?text=";
 
 const shotsContent = [
   {

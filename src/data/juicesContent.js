@@ -15,7 +15,7 @@ import cucumberAmla from "../assets/Images/juicenshots/cucumb-amla.webp";
 import ashgKarelaAmla from "../assets/Images/juicenshots/ash-karela.webp";
 
 // Replace with your WhatsApp number
-const whatsappBase = "https://wa.me/919876543210?text=";
+const whatsappBase = "https://wa.me/9036024955?text=";
 
 const juicesContent = [
   {

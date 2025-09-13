@@ -74,7 +74,7 @@ const ContactPage = () => {
         </div>
         <div className="info-box flex items-center gap-3">
           <FaPhoneAlt className="text-green w-6 h-6" />
-          <p className="text-gray-800 font-sM">+91 98765 43210</p>
+          <p className="text-gray-800 font-sM">+91 90360 24955</p>
         </div>
         <div className="info-box flex items-center gap-3">
           <FaEnvelope className="text-green w-6 h-6" />
@@ -83,7 +83,7 @@ const ContactPage = () => {
         <div className="info-box flex items-center gap-3">
           <FaWhatsapp className="text-green w-6 h-6" />
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/9036024955"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-800 font-sM hover:text-green"
@@ -94,7 +94,7 @@ const ContactPage = () => {
       </div>
 
       {/* Google Map */}
-      <div className="w-full h-72">
+      {/* <div className="w-full h-72">
         <iframe
           title="Google Map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.387152418246!2d77.03687001508372!3d28.459496982486606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19c4d3f20c3b%3A0x4f5c2b0a7d8baf91!2sGurgaon!5e0!3m2!1sen!2sin!4v1632486789012!5m2!1sen!2sin"
@@ -102,7 +102,7 @@ const ContactPage = () => {
           allowFullScreen=""
           loading="lazy"
         ></iframe>
-      </div>
+      </div> */}
     </section>
   );
 };

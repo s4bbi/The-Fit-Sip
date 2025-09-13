@@ -13,7 +13,8 @@ export const weeklyPlansContent = {
         { day: "FRIDAY", item: "AMLA TULSI SHOT" },
         { day: "SATURDAY", item: "TURMERIC & GINGER SHOT" },
       ],
-      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in 100 ML Shots Plan",
+      whatsappUrl:
+        "https://wa.me/9036024955?text=I'm interested in 100 ML Shots Plan",
     },
     {
       title: "Fresh Lean Detox",
@@ -27,7 +28,8 @@ export const weeklyPlansContent = {
         { day: "FRIDAY", item: "DETOX H20" },
         { day: "SATURDAY", item: "ABC SIP" },
       ],
-      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Fresh Lean Detox Plan",
+      whatsappUrl:
+        "https://wa.me/9036024955?text=I'm interested in Fresh Lean Detox Plan",
     },
     {
       title: "Health is Wealth",
@@ -41,7 +43,8 @@ export const weeklyPlansContent = {
         { day: "FRIDAY", item: "METABOLISM BOOSTER" },
         { day: "SATURDAY", item: "ABC SIP" },
       ],
-      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Health is Wealth Plan",
+      whatsappUrl:
+        "https://wa.me/9036024955?text=I'm interested in Health is Wealth Plan",
     },
   ],
 
@@ -58,7 +61,8 @@ export const weeklyPlansContent = {
         { day: "FRIDAY", item: "CUCUMBER AMLA MINT" },
         { day: "SATURDAY", item: "ASH GOURD KARELA" },
       ],
-      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Calm & Control Plan",
+      whatsappUrl:
+        "https://wa.me/9036024955?text=I'm interested in Calm & Control Plan",
     },
     {
       title: "Reboot Kickstart",
@@ -72,7 +76,8 @@ export const weeklyPlansContent = {
         { day: "FRIDAY", item: "ZESTY LEMON GREEN TEA" },
         { day: "SATURDAY", item: "ABC SIP" },
       ],
-      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Reboot Kickstart Plan",
+      whatsappUrl:
+        "https://wa.me/9036024955?text=I'm interested in Reboot Kickstart Plan",
     },
   ],
 
@@ -89,7 +94,8 @@ export const weeklyPlansContent = {
         { day: "FRIDAY", item: "POMEGRANATE BEETROOT" },
         { day: "SATURDAY", item: "ABC SIP" },
       ],
-      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Clear & Shine Plan",
+      whatsappUrl:
+        "https://wa.me/9036024955?text=I'm interested in Clear & Shine Plan",
     },
     {
       title: "The Fruit Bowl Plan",
@@ -103,11 +109,12 @@ export const weeklyPlansContent = {
         { day: "FRIDAY", item: "Enjoy a bowl full of natural goodness…" },
         { day: "SATURDAY", item: "Enjoy a bowl full of natural goodness…" },
       ],
-      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in The Fruit Bowl Plan",
+      whatsappUrl:
+        "https://wa.me/9036024955?text=I'm interested in The Fruit Bowl Plan",
     },
   ],
 
-  "energy": [
+  energy: [
     {
       title: "Pure Refresh",
       tagline: "Morning Fresh Start",
@@ -120,7 +127,8 @@ export const weeklyPlansContent = {
         { day: "FRIDAY", item: "MANGO DREAM" },
         { day: "SATURDAY", item: "EXOTIC FRUITS" },
       ],
-      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Pure Refresh Plan",
+      whatsappUrl:
+        "https://wa.me/9036024955?text=I'm interested in Pure Refresh Plan",
     },
     {
       title: "Balance & Boost",
@@ -134,11 +142,12 @@ export const weeklyPlansContent = {
         { day: "FRIDAY", item: "FRUIT BOWL" },
         { day: "SATURDAY", item: "THE SPROUT HARVEST" },
       ],
-      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Balance & Boost Plan",
+      whatsappUrl:
+        "https://wa.me/9036024955?text=I'm interested in Balance & Boost Plan",
     },
   ],
 
-  "nutrition": [
+  nutrition: [
     {
       title: "OverNight Oats",
       tagline: "Fuel Your Morning with Oats Jar",
@@ -151,7 +160,8 @@ export const weeklyPlansContent = {
         { day: "FRIDAY", item: "MANGO DREAM" },
         { day: "SATURDAY", item: "EXOTIC FRUITS" },
       ],
-      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in OverNight Oats Plan",
+      whatsappUrl:
+        "https://wa.me/9036024955?text=I'm interested in OverNight Oats Plan",
     },
     {
       title: "Healthy Breakfast",
@@ -165,7 +175,8 @@ export const weeklyPlansContent = {
         { day: "FRIDAY", item: "FRUIT BOWL" },
         { day: "SATURDAY", item: "THE SPROUT HARVEST" },
       ],
-      whatsappUrl: "https://wa.me/919876543210?text=I'm interested in Healthy Breakfast Plan",
+      whatsappUrl:
+        "https://wa.me/9036024955?text=I'm interested in Healthy Breakfast Plan",
     },
   ],
 };

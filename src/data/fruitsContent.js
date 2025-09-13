@@ -4,7 +4,7 @@
 import fruitbowl from "../assets/Images/fruitbowl.jpg";
 
 // Replace with your WhatsApp number
-const whatsappBase = "https://wa.me/919876543210?text=";
+const whatsappBase = "https://wa.me/9036024955?text=";
 
 const shotsContent = [
   {

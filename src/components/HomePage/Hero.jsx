@@ -45,7 +45,7 @@ const Hero = () => {
         </p>
 
         <div className="flex mb-6" ref={buttonRef}>
-          <PrimaryButton href="https://wa.me/919876543210" text="CHAT NOW" />
+          <PrimaryButton href="https://wa.me/9036024955" text="CHAT NOW" />
         </div>
 
         <div className="w-full flex justify-center px-2 md:px-8">

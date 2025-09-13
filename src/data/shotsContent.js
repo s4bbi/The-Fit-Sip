@@ -7,7 +7,7 @@ import beetrootAshwag from "../assets/Images/juicenshots/beetroot.webp";
 import greenShot from "../assets/Images/juicenshots/green-shot.webp";
 
 // Replace with your WhatsApp number
-const whatsappBase = "https://wa.me/919876543210?text=";
+const whatsappBase = "https://wa.me/9036024955?text=";
 
 const shotsContent = [
   {

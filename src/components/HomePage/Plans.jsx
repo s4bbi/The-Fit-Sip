@@ -1,5 +1,5 @@
 import React from "react";
-import { FaChevronRight } from "react-icons/fa";
+import { FaChevronRight, FaBookOpen } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import plansContent from "../../data/plansContent.js";
 
@@ -49,6 +49,20 @@ const Plans = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Full Menu Button */}
+        <div className="text-center mt-10">
+          <a
+            href="https://drive.google.com/your-menu-link" // 🔗 replace with your actual Google Drive PDF link
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-green text-white px-6 md:px-12 py-3 rounded-full font-sB 
+                       hover:bg-green-900 transition shadow-md hover:shadow-lg text-sm sm:text-base"
+          >
+            <FaBookOpen className="h-5 w-5" />
+            Explore Our Full Menu
+          </a>
         </div>
       </div>
     </section>
