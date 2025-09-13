@@ -102,11 +102,11 @@ body {
 }
 
 @theme{
-    --font-cgB: "CabinetGrotesk-Bold", sans-serif;
+    --font-cgB: "CabinetGrotesk-Bold", serif;
 }
 
 @theme{
-  --font-cgEB: "CabinetGrotesk-ExtraBold", sans-serif;
+  --font-cgEB: "CabinetGrotesk-ExtraBold", serif;
 }
 
 @theme{

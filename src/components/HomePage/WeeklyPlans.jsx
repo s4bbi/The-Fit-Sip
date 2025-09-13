@@ -2,6 +2,7 @@ import React from "react";
 import { FiStar } from "react-icons/fi";
 import { Link } from "react-router-dom"; // ✅ import Link
 import weekly from "../../assets/Images/weekly.png";
+import star from "../../assets/Icons/star.svg";
 
 export default function WeeklyPlans() {
   return (
@@ -15,7 +16,7 @@ export default function WeeklyPlans() {
             <h2 className="text-2xl md:text-4xl font-cgEB leading-tight">
               Never run out of freshness!
             </h2>
-            <FiStar className="text-yellow-300 w-6 h-6" />
+            <img src={star} alt="Star Icon" className="h-8" />
           </div>
 
           {/* Info Pills */}
