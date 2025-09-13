@@ -1,7 +1,7 @@
 import React from "react";
 import JuicesHero from "../components/Juices/JuicesHero";
 import JuicesGrid from "../components/Juices/JuicesGrid";
-import WhyJuices from "../components/Juices/WHyJuices";
+import WhyJuices from "../components/Juices/WhyJuices";
 import WeaklyPlans from "../components/HomePage/WeeklyPlans";
 
 const JuicesPage = () => {
