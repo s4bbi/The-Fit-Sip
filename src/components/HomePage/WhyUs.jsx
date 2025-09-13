@@ -23,12 +23,12 @@ export default function WhyUs() {
           Our Commitment to You!!
         </h2>
 
-        {/* Grid of Icons */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 sm:gap-8 md:gap-12">
+        {/* Row of Icons (same layout across all screens) */}
+        <div className="flex justify-center items-center gap-6 sm:gap-8 md:gap-12 overflow-x-auto no-scrollbar">
           {items.map((item, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center justify-center text-center px-2"
+              className="flex flex-col items-center justify-center text-center min-w-[100px] sm:min-w-[120px] md:min-w-[140px]"
             >
               <img
                 src={item.icon}
