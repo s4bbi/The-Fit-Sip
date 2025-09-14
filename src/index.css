@@ -78,6 +78,17 @@ body {
   scrollbar-width: none;
 }
 
+/* 🌟 Custom Selection */
+::selection {
+  background-color: var(--color-green);
+  color: white; /* Keep text readable */
+}
+
+::-moz-selection {
+  background-color: var(--color-green);
+  color: white;
+}
+
 /* 📁 Font Imports */
 @font-face {
   font-family: "CabinetGrotesk-Bold";
