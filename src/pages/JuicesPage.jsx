@@ -6,7 +6,7 @@ import JuicesGrid from "../components/Juices/JuicesGrid";
 import WhyJuices from "../components/Juices/WhyJuices";
 import WeeklyPlans from "../components/HomePage/WeeklyPlans";
 import TeasGrid from "../components/Juices/TeasGrid";
-import WhyTeas from "../components/Juices/WhyTEas";
+import WhyTeas from "../components/Juices/WhyTeas";
 
 const JuicesPage = () => {
   return (
