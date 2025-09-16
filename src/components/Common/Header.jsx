@@ -80,12 +80,12 @@ const Header = () => {
       <div className="animate-header w-full bg-green text-white text-sm sm:text-base font-sR text-center py-2 px-4">
         🚚 Free delivery before <span className="font-sB">8 AM</span> across Gurgaon · Call / WhatsApp us at{" "}
         <a
-          href="https://wa.me/919876543210"
+          href="https://wa.me/919036024955"
           target="_blank"
           rel="noopener noreferrer"
           className="underline ml-1"
         >
-          +91 98765 43210
+          +91 90360 24955
         </a>
       </div>
 
@@ -118,7 +118,7 @@ const Header = () => {
 
         {/* Desktop Chat Button */}
         <div className="hidden md:flex items-center animate-header">
-          <PrimaryButton href="https://wa.me/919876543210" text="CHAT NOW" />
+          <PrimaryButton href="https://wa.me/919036024955" text="CHAT NOW" />
         </div>
 
         {/* Hamburger for Mobile */}
@@ -153,7 +153,7 @@ const Header = () => {
           <Link to="/weekly-plans" className="hover:text-green-500 transition">PLANS</Link>
           <Link to="/contact" className="hover:text-green-500 transition">CONTACT US</Link>
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919036024955"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green text-white px-4 py-2 rounded-full hover:bg-green-600 transition mt-2 text-center flex items-center justify-center gap-2"

@@ -2,9 +2,9 @@
 
 // Import oat jar images (replace filenames with your actual assets)
 import mangoDream from "../assets/Images/oatsjar1.png";
-import exoticFruits from "../assets/Images/oatsjar1.png";
-import cocoaPeanut from "../assets/Images/oatsjar1.png";
-import powerCarrot from "../assets/Images/oatsjar1.png";
+import exoticFruits from "../assets/Images/oatsjar2.png";
+import cocoaPeanut from "../assets/Images/oatsjar3.png";
+import powerCarrot from "../assets/Images/oatsjar4.png";
 
 // Replace with your WhatsApp number
 const whatsappBase = "https://wa.me/9036024955?text=";

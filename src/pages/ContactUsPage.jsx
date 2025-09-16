@@ -35,7 +35,7 @@ const ContactPage = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="bg-[#FBFBF4] px-6 md:px-20 py-16">
+    <section ref={sectionRef} className="bg-[#FBFBF4] px-6 md:px-20 py-16 h-screen">
       {/* ✅ SEO Meta Tags */}
       <Title>The Fit Sip - Fresh Juices in Gurgaon | Contact Us</Title>
       <Meta
@@ -70,7 +70,7 @@ const ContactPage = () => {
       <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-16 text-center mb-12">
         <div className="info-box flex items-center gap-3">
           <FaMapMarkerAlt className="text-green w-6 h-6" />
-          <p className="text-gray-800 font-sM">123 FitSip Street, Gurgaon</p>
+          <p className="text-gray-800 font-sM">Sector 79, Gurgaon, 122101</p>
         </div>
         <div className="info-box flex items-center gap-3">
           <FaPhoneAlt className="text-green w-6 h-6" />
@@ -78,7 +78,7 @@ const ContactPage = () => {
         </div>
         <div className="info-box flex items-center gap-3">
           <FaEnvelope className="text-green w-6 h-6" />
-          <p className="text-gray-800 font-sM">support@fitsip.com</p>
+          <p className="text-gray-800 font-sM">thefitsip.india@gmail.com</p>
         </div>
         <div className="info-box flex items-center gap-3">
           <FaWhatsapp className="text-green w-6 h-6" />

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; // ✅ Import Link
+import { FaInstagram, FaLinkedin } from "react-icons/fa"; // ✅ Import icons
 import logo from "../../assets/fitsip-logo.svg";
 
 export default function Footer() {
@@ -15,14 +16,37 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Links */}
-        <div className="flex gap-6 mt-4 md:mt-0 text-sm font-sR">
-          <Link to="/contact" className="hover:text-white transition">
-            Contact Us
-          </Link>
-          <Link to="/terms" className="hover:text-white transition">
-            Terms of Service
-          </Link>
+        {/* Links + Socials */}
+        <div className="flex flex-col md:flex-row items-center gap-6 mt-4 md:mt-0 text-sm font-sR">
+          {/* Internal Links */}
+          <div className="flex gap-6">
+            <Link to="/contact" className="hover:text-white transition">
+              Contact Us
+            </Link>
+            <Link to="/terms" className="hover:text-white transition">
+              Terms of Service
+            </Link>
+          </div>
+
+          {/* Social Icons */}
+          <div className="flex gap-4 mt-4 md:mt-0">
+            <a
+              href="https://www.instagram.com/the_fit_sip?igsh=MW9peXlxbHRwanJxNQ%3D%3D&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              <FaInstagram className="w-5 h-5" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/the-fit-sip/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              <FaLinkedin className="w-5 h-5" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>

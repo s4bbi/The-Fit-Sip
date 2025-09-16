@@ -24,7 +24,7 @@ const juicesContent = [
     ingredients: "Apple, Beetroot, Carrot, Mint, Amla",
     calories: "Calories (Approx.) 100",
     price: "₹89",
-    image: abcJuice,
+    image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758043971/abc_v5s7vn.webp",
     link: `${whatsappBase}Hi, I would like to order ABC JUICE.`,
   },
   {

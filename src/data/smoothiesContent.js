@@ -1,6 +1,6 @@
-import berryBlast from "../assets/Images/smoothiebowl.jpg";
-import mangoPunch from "../assets/Images/smoothiebowl.jpg";
-import strawberryDream from "../assets/Images/smoothiebowl.jpg";
+import berryBlast from "../assets/Images/smoothie1.png";
+import mangoPunch from "../assets/Images/smoothie2.png";
+import strawberryDream from "../assets/Images/smoothie3.png";
 
 const smoothiesContent = [
   {

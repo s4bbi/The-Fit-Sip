@@ -12,7 +12,7 @@ import VideoReviews from "../components/HomePage/VideoReviews";
 
 export default function HomePage() {
   return (
-    <div className="w-screen flex flex-col">
+    <div className="max-w-screen mx-auto flex flex-col">
       {/* ✅ SEO Meta Tags */}
       <Title>The Fit Sip | Fresh Juices, Smoothies & Healthy Meals in Gurgaon</Title>
       <Meta

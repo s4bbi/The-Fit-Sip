@@ -5,6 +5,8 @@ import JuicesHero from "../components/Juices/JuicesHero";
 import JuicesGrid from "../components/Juices/JuicesGrid";
 import WhyJuices from "../components/Juices/WhyJuices";
 import WeeklyPlans from "../components/HomePage/WeeklyPlans";
+import TeasGrid from "../components/Juices/TeasGrid";
+import WhyTeas from "../components/Juices/WhyTEas";
 
 const JuicesPage = () => {
   return (
@@ -38,6 +40,8 @@ const JuicesPage = () => {
       <JuicesHero />
       <JuicesGrid />
       <WhyJuices />
+      <TeasGrid />
+      <WhyTeas />
       <WeeklyPlans />
     </main>
   );

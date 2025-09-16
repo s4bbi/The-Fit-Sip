@@ -5,8 +5,8 @@ import plansContent from "../../data/plansContent.js";
 
 const Plans = () => {
   return (
-    <section className="max-w-screen mx-auto bg-white px-6 md:px-20 my-8">
-      <div>
+    <section className=" bg-white px-6 md:px-20 my-8">
+      <div className="max-w-screen mx-auto">
         {/* Centered title and subtitle */}
         <div className="text-center mb-10">
           <h2 className="text-2xl sm:text-3xl text-gray-900 font-cgEB">
@@ -14,7 +14,8 @@ const Plans = () => {
             <span className="text-green">Health Goals</span>
           </h2>
           <p className="text-gray-700 text-base sm:text-lg mt-2 font-sR max-w-md mx-auto">
-            Loved by health-conscious families and professionals across Gurgaon
+            Choose what fits you most - from daily fresh juices to weekly
+            wholesome meals.
           </p>
         </div>
 
@@ -63,6 +64,19 @@ const Plans = () => {
             <FaBookOpen className="h-5 w-5" />
             Explore Our Full Menu
           </a>
+          <h2 className="text-2xl sm:text-3xl text-gray-900 font-cgEB mt-8">
+            Still confused?{" "}
+            <a
+              href="https://wa.link/24skdz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green hover:underline"
+            >
+              Contact Us
+            </a>
+            , anytime!!
+          </h2>
+
         </div>
       </div>
     </section>

@@ -30,8 +30,8 @@ const Hero = () => {
   }, []);
 
   return (
-    <section ref={heroRef} className="max-w-screen bg-white flex flex-col pt-10 pb-2 md:pb-12">
-      <div className="flex flex-col items-center text-center px-4 sm:px-6 md:px-12">
+    <section ref={heroRef} className="bg-white flex flex-col pt-10 pb-2 md:pb-12">
+      <div className="max-w-screen mx-auto flex flex-col items-center text-center px-4 sm:px-6 md:px-12">
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-cgEB text-gray-900 leading-snug mb-3">
           Looking for a <span className="text-green">healthier</span> way to{" "}
           <br className="hidden sm:block" />

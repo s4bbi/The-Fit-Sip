@@ -14,9 +14,9 @@ html {
 
 /* 🌊 Custom Colors */
 :root {
-  --color-white: #fdfdf7;
+  --color-white: #dede13;
   --color-surface: #0;
-  --color-background: #fdfdf7;
+  --color-background: #ffff2e;
   --color-green: #27AE60;
   --color-orange: #F2994A;
 }

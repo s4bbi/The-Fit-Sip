@@ -1,13 +1,13 @@
 import React from "react";
-import { FiStar } from "react-icons/fi";
-import { Link } from "react-router-dom"; // ✅ import Link
+import { FaChevronRight } from "react-icons/fa"; // ✅ added
+import { Link } from "react-router-dom";
 import weekly from "../../assets/Images/weekly.png";
 import star from "../../assets/Icons/star.svg";
 
 export default function WeeklyPlans() {
   return (
-    <section className="bg-orange px-6 md:px-20 py-12 lg:py-20 w-screen mx-auto">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-10">
+    <section className="bg-orange px-6 md:px-20 py-12 lg:py-20 max-w-screen">
+      <div className="max-w-screen mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
         
         {/* Left Content */}
         <div className="text-white flex-1 flex flex-col items-center md:items-start text-center md:text-left">
@@ -38,14 +38,15 @@ export default function WeeklyPlans() {
           {/* CTA Button */}
           <Link
             to="/weekly-plans"
-            className="bg-green hover:bg-green-600 transition text-white font-sB px-6 py-3 rounded-full text-sm md:text-base shadow-md"
+            className="bg-green hover:bg-green-600 transition text-white font-sB px-6 py-3 rounded-full text-sm md:text-base shadow-md flex items-center gap-2"
           >
             EXPLORE WEEKLY PLANS
+            <FaChevronRight className="h-4 w-4" /> {/* ✅ Icon added */}
           </Link>
         </div>
 
         {/* Right Image flush to edge */}
-        <div className="flex-1 flex justify-end -mx-6 md:-mx-20 -my-12 lg:-my-20">
+        <div className="flex-1 flex justify-end -mx-6 md:-mx-16 -my-12 lg:-my-20">
           <img
             src={weekly}
             alt="Weekly Plans Crate"
