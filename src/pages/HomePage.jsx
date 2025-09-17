@@ -35,7 +35,7 @@ export default function HomePage() {
 
       {/* Page Sections */}
       <Hero />
-      <Commitment />
+      {/* <Commitment /> */}
       <Offerings />
       <Plans />
       <WeeklyPlans />

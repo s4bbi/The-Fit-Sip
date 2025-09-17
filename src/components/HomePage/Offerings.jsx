@@ -21,7 +21,7 @@ const Offerings = () => {
     <section className="w-full mx-auto bg-white px-6 md:px-20 my-8" id="offerings">
       {/* Section Title */}
       <h2 className="text-2xl md:text-3xl font-cgEB mb-10 text-gray-900 text-center">
-        What We Offer ?
+        What all we offer ?
       </h2>
 
       {/* Scrollable Container */}

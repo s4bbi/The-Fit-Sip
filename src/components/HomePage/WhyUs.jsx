@@ -20,7 +20,7 @@ export default function WhyUs() {
       <div className="text-center">
         {/* Section Title */}
         <h2 className="text-2xl md:text-3xl font-cgEB text-black mb-8 sm:mb-12">
-          Why Us?
+          Why <span className="text-green">THE FIT SIP </span>?
         </h2>
 
         {/* Grid of Icons (always fit in one row) */}

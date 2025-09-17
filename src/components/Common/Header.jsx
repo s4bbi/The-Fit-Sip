@@ -78,7 +78,7 @@ const Header = () => {
     <header ref={headerRef} className="w-full bg-white shadow-md font-sM">
       {/* Top Announcement Bar */}
       <div className="animate-header w-full bg-green text-white text-sm sm:text-base font-sR text-center py-2 px-4">
-        🚚 Free delivery before <span className="font-sB">8 AM</span> across Gurgaon · Call / WhatsApp us at{" "}
+        🚚 Free delivery, every morning before <span className="font-sB">8 AM  </span>WhatsApp us at{" "}
         <a
           href="https://wa.me/919036024955"
           target="_blank"

@@ -1,4 +1,4 @@
-import juice from "../assets/Images/offerings/juices.png";
+import juice from "../assets/Images/offerings/juices.jpg";
 import shots from "../assets/Images/offerings/shots.png";
 import fruit from "../assets/Images/offerings/fruit.png";
 import salads from "../assets/Images/offerings/salads.png";

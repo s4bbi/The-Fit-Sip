@@ -10,12 +10,11 @@ const Plans = () => {
         {/* Centered title and subtitle */}
         <div className="text-center mb-10">
           <h2 className="text-2xl sm:text-3xl text-gray-900 font-cgEB">
-            Plans Designed Around Your{" "}
+            Choose Weekly Plans Designed Around Your{" "}
             <span className="text-green">Health Goals</span>
           </h2>
           <p className="text-gray-700 text-base sm:text-lg mt-2 font-sR max-w-md mx-auto">
-            Choose what fits you most - from daily fresh juices to weekly
-            wholesome meals.
+            Every morning, 2,000+ subscribers choose fresh living and better health.
           </p>
         </div>
 

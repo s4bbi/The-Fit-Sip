@@ -22,9 +22,10 @@ export default function WeeklyPlans() {
           {/* Info Pills */}
           <div className="space-y-4 mb-8 font-sR flex flex-col items-center md:items-start">
             {[
-              "Delivery before 8 AM",
-              "Choose from 12+ healthy Plans",
-              "Starting from Rs. 400 only per week",
+              "Freshly made every morning, delivered by 8 AM",
+              "Flexible weekly plans, made for you",
+              "Juices, Salads, Shots, Oats & More",
+              "Starts at just Rs. 66/day"
             ].map((text, i) => (
               <div
                 key={i}
