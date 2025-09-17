@@ -111,6 +111,9 @@ const Header = () => {
           <Link to="/weekly-plans" className="flex items-center hover:text-green-500 transition">
             PLANS
           </Link>
+          <Link to ="/about" className="flex items-center hover:text-green-500 transition">
+            ABOUT US
+          </Link>
           <Link to="/contact" className="flex items-center hover:text-green-500 transition">
             CONTACT US
           </Link>
@@ -151,6 +154,7 @@ const Header = () => {
             PRODUCTS
           </a>
           <Link to="/weekly-plans" className="hover:text-green-500 transition">PLANS</Link>
+          <Link to="/about" className="hover:text-green-500 transition">ABOUT US</Link>
           <Link to="/contact" className="hover:text-green-500 transition">CONTACT US</Link>
           <a
             href="https://wa.me/919036024955"

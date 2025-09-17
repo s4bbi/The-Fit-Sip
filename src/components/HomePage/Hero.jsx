@@ -1,37 +1,23 @@
-import React, { useEffect, useRef } from "react";
-import { gsap } from "gsap";
-import heroimg from "../../assets/Images/heroimg.png";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+
 import PrimaryButton from "../Common/CommonButton";
+import hero1 from "../../assets/Images/heroimg.png";
+import hero2 from "../../assets/Images/weekly-hero.png";
+import hero3 from "../../assets/Images/fruit-hero.png";
+import hero4 from "../../assets/Images/slideshow/juices.webp";
+// import hero5 from "../../assets/Images/slideshow/shots.png";
+
+const images = [hero1, hero2, hero3, hero4];
 
 const Hero = () => {
-  const heroRef = useRef(null);
-  const buttonRef = useRef(null);
-
-  useEffect(() => {
-    const el = heroRef.current;
-    if (el) {
-      gsap.fromTo(
-        [
-          el.querySelector("h1"),
-          el.querySelector("p"),
-          buttonRef.current,
-          el.querySelector("img"),
-        ],
-        { y: 40, opacity: 0 },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 1,
-          ease: "power3.out",
-          stagger: 0.2,
-        }
-      );
-    }
-  }, []);
-
   return (
-    <section ref={heroRef} className="bg-white flex flex-col pt-4 pb-2 md:pb-12">
-      <div className="max-w-screen mx-auto flex flex-col items-center text-center px-4 sm:px-6 md:px-12">
+    <section className="bg-white flex flex-col pt-4 pb-2 md:pb-12">
+      <div className="flex flex-col items-center text-center px-4 sm:px-6 md:px-12">
+        {/* Heading */}
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-cgEB text-gray-900 leading-snug mb-3">
           Looking for a <span className="text-green">healthier</span> way to{" "}
           <br className="hidden sm:block" />
@@ -44,16 +30,30 @@ const Hero = () => {
           free before 8 AM in Gurgaon.
         </p>
 
-        <div className="flex mb-6" ref={buttonRef}>
-          <PrimaryButton href="https://wa.me/9036024955" text="CHAT NOW" />
+        {/* Button */}
+        <div className="flex mb-6">
+          <PrimaryButton href="https://wa.link/24skdz" text="CHAT NOW" />
         </div>
 
-        <div className="w-full flex justify-center px-2 md:px-8">
-          <img
-            src={heroimg}
-            alt="Healthy food and juices"
-            className="rounded-2xl w-full object-cover shadow-md"
-          />
+        {/* Responsive Swiper Slider */}
+        <div className="w-full rounded-2xl shadow-md overflow-hidden">
+          <Swiper
+            modules={[Autoplay, Pagination]}
+            autoplay={{ delay: 4000, disableOnInteraction: false }}
+            loop={true}
+            pagination={{ clickable: true }}
+            className="w-full h-[240px] sm:h-[360px] md:h-[480px] lg:h-[600px] xl:h-[700px]"
+          >
+            {images.map((img, idx) => (
+              <SwiperSlide key={idx}>
+                <img
+                  src={img}
+                  alt={`Slide ${idx + 1}`}
+                  className="w-full h-full object-cover"
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </section>
