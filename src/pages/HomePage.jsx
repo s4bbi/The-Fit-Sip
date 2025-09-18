@@ -9,7 +9,7 @@ import WeeklyPlans from "../components/HomePage/WeeklyPlans";
 import WhyUs from "../components/HomePage/WhyUs";
 import Testimonials from "../components/HomePage/Testimonials";
 import VideoReviews from "../components/HomePage/VideoReviews";
-import MoreInfo from "../components/HomePage/moreInfo";
+import MoreInfo from "../components/HomePage/MoreInfo";
 
 export default function HomePage() {
   return (
