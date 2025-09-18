@@ -1,26 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./src/assets/fitsip-logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ✅ Basic SEO -->
-    <title>The Fit Sip | Fresh Juices & Healthy Meals in Gurgaon</title>
+    <!-- ✅ Essential SEO -->
+    <title>
+      The Fit Sip | Fresh Juices, Smoothies & Healthy Meals in Gurgaon
+    </title>
     <meta
       name="description"
-      content="The Fit Sip delivers cold-pressed juices, smoothies, oats, salads & fruit bowls fresh every morning in Gurgaon. 100% natural. Delivered before 8 AM."
+      content="The Fit Sip, Order fresh cold-pressed juices, smoothies, salads, oats & fruit bowls in Gurgaon. 100% natural, homemade, delivered daily before 8 AM. Explore our healthy meal subscriptions, fresh lunch and dinner options, and hassle-free delivery."
     />
     <meta
       name="keywords"
-      content="cold pressed juices Gurgaon, smoothie delivery Gurgaon, healthy breakfast Gurgaon, fresh salads Gurgaon, overnight oats Gurgaon, The Fit Sip"
+      content="The Fit Sip, cold pressed juices Gurgaon, smoothie delivery Gurgaon, healthy breakfast Gurgaon, fresh salads Gurgaon, overnight oats Gurgaon, healthy meal subscription."
     />
 
-    <!-- ✅ Open Graph (Social Sharing) -->
-    <meta property="og:title" content="The Fit Sip | Fresh Juices & Healthy Meals" />
+    <!-- ✅ Canonical URL -->
+    <link rel="canonical" href="https://thefitsip.in/" />
+
+    <!-- ✅ Open Graph for Social Sharing -->
+    <meta
+      property="og:title"
+      content="The Fit Sip | Fresh Juices & Healthy Meals"
+    />
     <meta
       property="og:description"
-      content="Juices, smoothies, oats, and fruit bowls delivered fresh every morning in Gurgaon. 100% natural, no sugar, no preservatives."
+      content="Juices, smoothies, oats, and fruit bowls delivered fresh every morning in Gurgaon. 100% natural, no sugar, no preservatives. Discover our weekly subscriptions and healthy meal plans."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://thefitsip.in" />
@@ -28,20 +36,99 @@
 
     <!-- ✅ Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="The Fit Sip | Fresh Juices & Healthy Meals" />
+    <meta
+      name="twitter:title"
+      content="The Fit Sip | Fresh Juices & Healthy Meals"
+    />
     <meta
       name="twitter:description"
-      content="Daily delivery of juices, oats, smoothies & more in Gurgaon. Stay healthy, stay fresh!"
+      content="Daily delivery of juices, oats, smoothies & more in Gurgaon. Stay healthy, stay fresh with The Fit Sip's natural meal subscriptions!"
     />
     <meta name="twitter:image" content="https://thefitsip.in/og-image.jpg" />
 
-    <!-- ✅ PWA / Mobile Friendly -->
+    <!-- ✅ Mobile Friendly / PWA -->
     <meta name="theme-color" content="#27AE60" />
     <link rel="apple-touch-icon" href="./src/assets/fitsip-logo.svg" />
 
-    <!-- ✅ Preconnect for performance -->
+    <!-- ✅ Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- ✅ Organization Schema Markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "The Fit Sip",
+        "url": "https://thefitsip.in",
+        "logo": "https://thefitsip.in/og-image.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9036024955",
+          "contactType": "Customer Support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        },
+        "sameAs": [
+          "https://www.instagram.com/thefitsip",
+          "https://www.facebook.com/thefitsip"
+        ]
+      }
+    </script>
+
+    <!-- ✅ Website Schema & Sitelinks Search Box -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://thefitsip.in/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://thefitsip.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+
+    <!-- ✅ Navigation / Sitelinks Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "SiteNavigationElement",
+            "position": 1,
+            "name": "Our Subscriptions",
+            "url": "https://thefitsip.in/weekly-plans"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 2,
+            "name": "Contact",
+            "url": "https://thefitsip.in/contact"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 3,
+            "name": "About Us",
+            "url": "https://thefitsip.in/about"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 4,
+            "name": "Lunch",
+            "url": "https://thefitsip.in/lunch"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 5,
+            "name": "Dinner",
+            "url": "https://thefitsip.in/dinner"
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
