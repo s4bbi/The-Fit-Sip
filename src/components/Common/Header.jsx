@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom"; // ✅ useLocation added
+import { Link, useLocation } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
 import { gsap } from "gsap";
+import Marquee from "react-fast-marquee"; // ✅ add this
 import logo from "../../assets/fitsip-logo.svg";
 import PrimaryButton from "./CommonButton";
 
@@ -10,7 +11,7 @@ const Header = () => {
   const menuRef = useRef(null);
   const headerRef = useRef(null);
   const hamburgerRef = useRef(null);
-  const location = useLocation(); // ✅ track route changes
+  const location = useLocation();
 
   // Close mobile menu on route change
   useEffect(() => {
@@ -32,7 +33,6 @@ const Header = () => {
         }
       );
     }, headerRef);
-
     return () => ctx.revert();
   }, []);
 
@@ -42,10 +42,9 @@ const Header = () => {
     if (el) el.style.height = menuOpen ? el.scrollHeight + "px" : "0px";
   }, [menuOpen]);
 
-  // GSAP animation for hamburger toggle
+  // GSAP hamburger animation
   useEffect(() => {
     if (!hamburgerRef.current) return;
-
     const topLine = hamburgerRef.current.querySelector(".line1");
     const middleLine = hamburgerRef.current.querySelector(".line2");
     const bottomLine = hamburgerRef.current.querySelector(".line3");
@@ -55,22 +54,19 @@ const Header = () => {
       gsap.to(middleLine, { opacity: 0, duration: 0.3 });
       gsap.to(bottomLine, { rotation: -45, y: -6, duration: 0.3, transformOrigin: "center" });
     } else {
-      gsap.to(topLine, { rotation: 0, y: 0, duration: 0.3, transformOrigin: "center" });
+      gsap.to(topLine, { rotation: 0, y: 0, duration: 0.3 });
       gsap.to(middleLine, { opacity: 1, duration: 0.3 });
-      gsap.to(bottomLine, { rotation: 0, y: 0, duration: 0.3, transformOrigin: "center" });
+      gsap.to(bottomLine, { rotation: 0, y: 0, duration: 0.3 });
     }
   }, [menuOpen]);
 
-  // Smooth scroll for Products
   const handleProductsClick = (e) => {
     e.preventDefault();
     if (window.location.pathname !== "/") {
       window.location.href = "/#offerings";
     } else {
       const offeringsSection = document.getElementById("offerings");
-      if (offeringsSection) {
-        offeringsSection.scrollIntoView({ behavior: "smooth" });
-      }
+      if (offeringsSection) offeringsSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -78,7 +74,8 @@ const Header = () => {
     <header ref={headerRef} className="w-full bg-white shadow-md font-sM">
       {/* Top Announcement Bar */}
       <div className="animate-header w-full bg-green text-white text-sm sm:text-base font-sR text-center py-2 px-4">
-        🚚 Free delivery, every morning before <span className="font-sB">8 AM  </span>WhatsApp us at{" "}
+        🚚 Free delivery, every morning before <span className="font-sB">8 AM</span>{" "}
+        WhatsApp us at{" "}
         <a
           href="https://wa.me/919036024955"
           target="_blank"
@@ -90,7 +87,7 @@ const Header = () => {
       </div>
 
       {/* Main Header */}
-      <div className="flex items-center justify-between h-16 px-6 md:px-14 lg:px-20 font-sB ">
+      <div className="flex items-center justify-between h-16 px-6 md:px-14 lg:px-20 font-sB">
         {/* Logo */}
         <Link to="/" className="animate-header flex items-center">
           <img src={logo} alt="FitSip Logo" className="h-8" />
@@ -98,25 +95,13 @@ const Header = () => {
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex -mr-14 items-center space-x-8 text-black animate-header h-full">
-          <Link to="/" className="flex items-center hover:text-green-500 transition">
-            HOME
-          </Link>
-          <a
-            href="#offerings"
-            onClick={handleProductsClick}
-            className="flex items-center hover:text-green-500 transition cursor-pointer"
-          >
+          <Link to="/" className="hover:text-green-500">HOME</Link>
+          <a href="#offerings" onClick={handleProductsClick} className="hover:text-green-500 cursor-pointer">
             PRODUCTS
           </a>
-          <Link to="/weekly-plans" className="flex items-center hover:text-green-500 transition">
-            PLANS
-          </Link>
-          <Link to ="/about" className="flex items-center hover:text-green-500 transition">
-            ABOUT US
-          </Link>
-          <Link to="/contact" className="flex items-center hover:text-green-500 transition">
-            CONTACT US
-          </Link>
+          <Link to="/weekly-plans" className="hover:text-green-500">PLANS</Link>
+          <Link to="/about" className="hover:text-green-500">ABOUT US</Link>
+          <Link to="/contact" className="hover:text-green-500">CONTACT US</Link>
         </nav>
 
         {/* Desktop Chat Button */}
@@ -129,14 +114,17 @@ const Header = () => {
           ref={hamburgerRef}
           className="md:hidden flex flex-col justify-center items-center space-y-1.5 text-green-800 focus:outline-none animate-header"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
-          aria-expanded={menuOpen}
         >
           <span className="line1 block w-6 h-0.5 bg-current rounded"></span>
           <span className="line2 block w-6 h-0.5 bg-current rounded"></span>
           <span className="line3 block w-6 h-0.5 bg-current rounded"></span>
         </button>
       </div>
+
+      {/* ✅ Continuous Scrolling Marquee Below Header */}
+      <Marquee gradient={false} speed={50} className="bg-green text-white py-2 font-sB text-sm sm:text-base">
+        Weekly Subscription Starts @ Rs. 66/Day &nbsp; • &nbsp; Free Delivery Every Morning in Gurgaon &nbsp; • &nbsp; Weekly Subscription Starts @ Rs. 66/Day &nbsp; • &nbsp; Free Delivery Every Morning in Gurgaon &nbsp; • &nbsp; Weekly Subscription Starts @ Rs. 66/Day &nbsp; • &nbsp; Free Delivery Every Morning in Gurgaon &nbsp; • &nbsp;
+      </Marquee>
 
       {/* Mobile Menu */}
       <div
@@ -145,17 +133,13 @@ const Header = () => {
         style={{ height: "0px" }}
       >
         <nav className="flex flex-col space-y-2 p-4 text-black">
-          <Link to="/" className="hover:text-green-500 transition">HOME</Link>
-          <a
-            href="#offerings"
-            onClick={handleProductsClick}
-            className="hover:text-green-500 transition cursor-pointer"
-          >
+          <Link to="/" className="hover:text-green-500">HOME</Link>
+          <a href="#offerings" onClick={handleProductsClick} className="hover:text-green-500 cursor-pointer">
             PRODUCTS
           </a>
-          <Link to="/weekly-plans" className="hover:text-green-500 transition">PLANS</Link>
-          <Link to="/about" className="hover:text-green-500 transition">ABOUT US</Link>
-          <Link to="/contact" className="hover:text-green-500 transition">CONTACT US</Link>
+          <Link to="/weekly-plans" className="hover:text-green-500">PLANS</Link>
+          <Link to="/about" className="hover:text-green-500">ABOUT US</Link>
+          <Link to="/contact" className="hover:text-green-500">CONTACT US</Link>
           <a
             href="https://wa.me/919036024955"
             target="_blank"

@@ -1,5 +1,5 @@
 import avatar from "../assets/fitsip-logo.svg"; // 📌 Replace with actual avatars if available
-import payal from "../assets/Images/customers/goyal.png";
+import payal from "../assets/Images/customers/payal.png";
 import grover from "../assets/Images/customers/grover.png";
 import goyal from "../assets/Images/customers/goyal.png";
 import ankush from "../assets/Images/customers/ankush.png";
@@ -7,6 +7,7 @@ import rahul from "../assets/Images/customers/rahul.png";
 import anshu from "../assets/Images/customers/anshu.png";
 import apoorva from "../assets/Images/customers/apoorva.png";
 import monika from "../assets/Images/customers/monika.png";
+
 
 
 const testimonialsContent = [
