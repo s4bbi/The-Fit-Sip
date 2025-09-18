@@ -8,23 +8,33 @@ export default function Footer() {
     <footer id="footer" className="bg-gray-900 text-gray-300 py-8 px-6">
       <div className="max-w-screen mx-auto flex flex-col md:flex-row justify-between items-center px-6 md:px-14">
         
-        {/* Logo + Copyright */}
+        {/* Logo + Company Info */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <img src={logo} alt="The Fit Sip Logo" className="h-8 mb-2" />
-          <p className="text-sm font-sR">
+          <img src={logo} alt="The Fit Sip Logo" className="h-12 mb-2" /> {/* Bigger logo */}
+          <p className="text-sm font-sB text-white">Wellory Living Pvt. Ltd.</p>
+          <p className="text-sm font-sR mt-1">
             © {new Date().getFullYear()} The Fit Sip. All rights reserved.
           </p>
         </div>
 
         {/* Links + Socials */}
-        <div className="flex flex-col md:flex-row items-center gap-6 mt-4 md:mt-0 text-sm font-sR">
+        <div className="flex flex-col md:flex-row items-center gap-6 mt-6 md:mt-0 text-sm font-sR">
           {/* Internal Links */}
-          <div className="flex gap-6">
+          <div className="flex flex-wrap justify-center gap-6">
             <Link to="/contact" className="hover:text-white transition">
               Contact Us
             </Link>
             <Link to="/terms" className="hover:text-white transition">
               Terms of Service
+            </Link>
+            <Link to="/refund" className="hover:text-white transition">
+              Refund and Cancellation Policy
+            </Link>
+            <Link to="/privacy" className="hover:text-white transition">
+              Privacy Policy
+            </Link>
+            <Link to="/shipping" className="hover:text-white transition">
+              Shipping Policy
             </Link>
           </div>
 
@@ -36,7 +46,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:text-white transition"
             >
-              <FaInstagram className="w-5 h-5" />
+              <FaInstagram className="w-6 h-6" />
             </a>
             <a
               href="https://www.linkedin.com/company/the-fit-sip/"
@@ -44,7 +54,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:text-white transition"
             >
-              <FaLinkedin className="w-5 h-5" />
+              <FaLinkedin className="w-6 h-6" />
             </a>
           </div>
         </div>

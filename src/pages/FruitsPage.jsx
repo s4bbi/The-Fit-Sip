@@ -25,8 +25,8 @@ const FruitsPage = () => {
         content="Wholesome fruit bowls packed with vitamins & antioxidants. Delivered fresh in Gurgaon every morning."
       />
       <Meta property="og:type" content="website" />
-      <Meta property="og:url" content="https://thefitsip.com/fruits" />
-      <MetaLink rel="canonical" href="https://thefitsip.com/fruits" />
+      <Meta property="og:url" content="https://thefitsip.in/fruits" />
+      <MetaLink rel="canonical" href="https://thefitsip.in/fruits" />
 
       <FruitsHero />
       <FruitsGrid />

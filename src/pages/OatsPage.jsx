@@ -25,7 +25,7 @@ const OatsPage = () => {
         content="Fuel your mornings with nutritious overnight oats jars from The Fit Sip. Delivered fresh before 8 AM in Gurgaon."
       />
       <Meta property="og:type" content="website" />
-      <Meta property="og:url" content="https://thefitsip.com/oats" />
+      <Meta property="og:url" content="https://thefitsip.in/oats" />
 
       <OatsHero />
       <OatsGrid />

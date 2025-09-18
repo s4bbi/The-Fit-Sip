@@ -15,6 +15,9 @@ import ContactUsPage from "./pages/ContactUsPage.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import TermsOfService from "./components/Common/TermsOfService.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import RefundPolicy from "./pages/RefundPolicy";
+import ShippingPolicy from "./pages/ShippingPolicy";
 
 const App = () => {
   return (
@@ -32,6 +35,9 @@ const App = () => {
         <Route path="/contact" element={<ContactUsPage />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/terms" element={<TermsOfService />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/refund" element={<RefundPolicy />} />
+        <Route path="/shipping" element={<ShippingPolicy />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </HeadProvider>

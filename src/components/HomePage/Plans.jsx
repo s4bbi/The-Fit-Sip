@@ -1,5 +1,5 @@
 import React from "react";
-import { FaChevronRight, FaBookOpen } from "react-icons/fa";
+import { FaChevronRight, FaBookOpen, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import plansContent from "../../data/plansContent.js";
 
@@ -9,12 +9,13 @@ const Plans = () => {
       <div className="max-w-screen mx-auto">
         {/* Centered title and subtitle */}
         <div className="text-center mb-10">
-          <h2 className="text-2xl sm:text-3xl text-gray-900 font-cgEB">
+          <h2 className="text-2xl md:text-3xl text-gray-900 font-cgEB">
             Choose Weekly Plans Designed Around Your{" "}
             <span className="text-green">Health Goals</span>
           </h2>
-          <p className="text-gray-700 text-base sm:text-lg mt-2 font-sR max-w-md mx-auto">
-            Every morning, 2,000+ subscribers choose fresh living and better health.
+          <p className="text-gray-700 text-base md:text-lg mt-2 font-sR max-w-md mx-auto">
+            Every morning, 2,000+ subscribers choose fresh living and better
+            health.
           </p>
         </div>
 
@@ -51,10 +52,10 @@ const Plans = () => {
           ))}
         </div>
 
-        {/* Full Menu Button */}
+        {/* Full Menu + Contact */}
         <div className="text-center mt-10">
           <a
-            href="https://drive.google.com/your-menu-link" // 🔗 replace with your actual Google Drive PDF link
+            href="https://drive.google.com/your-menu-link" // 🔗 replace with actual Google Drive PDF link
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-green text-white px-6 md:px-12 py-3 rounded-full font-sB 
@@ -63,19 +64,27 @@ const Plans = () => {
             <FaBookOpen className="h-5 w-5" />
             Explore Our Full Menu
           </a>
-          <h2 className="text-2xl sm:text-3xl text-gray-900 font-cgEB mt-8">
-            Still confused?{" "}
+
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-6">
+            <h2 className="text-2xl md:text-3xl text-gray-900 font-cgEB">
+              Still confused?
+            </h2>
+
             <a
               href="https://wa.link/24skdz"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-green hover:underline"
+              className="inline-flex items-center gap-2 bg-green text-white px-4 py-2 rounded-full font-sB 
+               hover:bg-orange-600 transition shadow-md hover:shadow-lg text-sm sm:text-base"
             >
+              <FaWhatsapp className="h-4 w-4" />
               Contact Us
             </a>
-            , anytime!!
-          </h2>
 
+            <h2 className="text-2xl sm:text-3xl text-gray-900 font-cgEB">
+              anytime!!
+            </h2>
+          </div>
         </div>
       </div>
     </section>

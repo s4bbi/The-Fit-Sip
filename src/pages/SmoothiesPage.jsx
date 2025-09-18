@@ -28,7 +28,7 @@ const SmoothiesPage = () => {
         content="Wholesome and filling smoothie bowls with fruits, oats, and nuts. Delivered fresh in Gurgaon every morning."
       />
       <Meta property="og:type" content="website" />
-      <Meta property="og:url" content="https://thefitsip.com/smoothies" />
+      <Meta property="og:url" content="https://thefitsip.in/smoothies" />
 
       {/* Page Sections */}
       <SmoothiesHero />

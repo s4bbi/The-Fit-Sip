@@ -9,6 +9,7 @@ import WeeklyPlans from "../components/HomePage/WeeklyPlans";
 import WhyUs from "../components/HomePage/WhyUs";
 import Testimonials from "../components/HomePage/Testimonials";
 import VideoReviews from "../components/HomePage/VideoReviews";
+import MoreInfo from "../components/HomePage/moreInfo";
 
 export default function HomePage() {
   return (
@@ -29,13 +30,14 @@ export default function HomePage() {
         content="Healthy cold-pressed juices, shots, smoothies, oats & fruit bowls delivered fresh every morning in Gurgaon."
       />
       <Meta property="og:type" content="website" />
-      <Meta property="og:url" content="https://thefitsip.com" />
+      <Meta property="og:url" content="https://thefitsip.in" />
       <Meta property="og:image" content="/fitsip-og-image.jpg" />
-      <MetaLink rel="canonical" href="https://thefitsip.com" />
+      <MetaLink rel="canonical" href="https://thefitsip.in" />
 
       {/* Page Sections */}
       <Hero />
       {/* <Commitment /> */}
+      <MoreInfo />
       <Offerings />
       <Plans />
       <WeeklyPlans />

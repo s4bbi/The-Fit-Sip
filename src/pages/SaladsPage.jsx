@@ -25,7 +25,7 @@ const SaladsPage = () => {
         content="Wholesome, protein-packed salads delivered fresh every morning in Gurgaon. Power your day with The Fit Sip."
       />
       <Meta property="og:type" content="website" />
-      <Meta property="og:url" content="https://thefitsip.com/salads" />
+      <Meta property="og:url" content="https://thefitsip.in/salads" />
 
       <SaladsHero />
       <SaladsGrid />

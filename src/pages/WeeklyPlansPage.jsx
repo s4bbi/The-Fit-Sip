@@ -63,7 +63,7 @@ const WeeklyPlansPage = () => {
         content="Custom weekly subscription plans with juices, shots, salads, oats & smoothies. Delivered fresh daily in Gurgaon."
       />
       <Meta property="og:type" content="website" />
-      <Meta property="og:url" content="https://thefitsip.com/weekly-plans" />
+      <Meta property="og:url" content="https://thefitsip.in/weekly-plans" />
 
       <WeeklyHero />
 

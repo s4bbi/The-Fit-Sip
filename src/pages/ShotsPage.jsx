@@ -28,7 +28,7 @@ const ShotsPage = () => {
         content="Try our cold-pressed health shots — ginger, turmeric, amla, beetroot & more. Delivered fresh every morning in Gurgaon."
       />
       <Meta property="og:type" content="website" />
-      <Meta property="og:url" content="https://thefitsip.com/shots" />
+      <Meta property="og:url" content="https://thefitsip.in/shots" />
 
       {/* Page Sections */}
       <ShotsHero />

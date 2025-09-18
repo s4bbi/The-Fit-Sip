@@ -18,6 +18,16 @@ const TermsOfService = () => {
     "Please check for any allergies before consumption and confirm the ingredients. The Fit Sip is not liable for any reactions.",
     "If you have any specific health concerns, we recommend conducting your own research or consulting a healthcare professional before ordering.",
     "Delivery time is between 7:00 AM to 8:30 AM.",
+    "Use our website for personal, non-commercial purposes only.",
+    "Do not copy, republish, sell, or redistribute content without permission.",
+    "We use cookies to improve browsing experience.",
+    "All content belongs to THE FIT SIP (unless otherwise stated).",
+    "You are responsible for comments or feedback posted by you.",
+    "Links to our website must be fair and legal; logo usage requires approval.",
+    "We are not responsible for third-party websites linked from our site.",
+    "We strive for accurate info but cannot guarantee it always.",
+    "THE FIT SIP is not liable for issues arising from site usage.",
+    "We may update these Terms at any time; updates are effective immediately.",
   ];
 
   useEffect(() => {
@@ -56,7 +66,8 @@ const TermsOfService = () => {
           Terms of Service
         </h1>
         <p className="text-gray-700 text-center font-sR mb-10 max-w-xl mx-auto">
-          Please read our terms carefully before subscribing to our weekly plans.
+          Please read our terms carefully before subscribing to our weekly
+          plans.
         </p>
 
         {/* Terms List */}

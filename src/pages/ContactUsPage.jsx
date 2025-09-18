@@ -52,8 +52,8 @@ const ContactPage = () => {
         content="Reach out to The Fit Sip team for fresh juices & healthy meals in Gurgaon. Available on call, WhatsApp, and email."
       />
       <Meta property="og:type" content="website" />
-      <Meta property="og:url" content="https://thefitsip.com/contact" />
-      <MetaLink rel="canonical" href="https://thefitsip.com/contact" />
+      <Meta property="og:url" content="https://thefitsip.in/contact" />
+      <MetaLink rel="canonical" href="https://thefitsip.in/contact" />
 
       {/* Hero */}
       <div className="text-center mb-12">

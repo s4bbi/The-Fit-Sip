@@ -1,12 +1,12 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa"; // ✅ added
 import { Link } from "react-router-dom";
-import weekly from "../../assets/Images/weekly.png";
+import weekly from "../../assets/Images/delivery.png";
 import star from "../../assets/Icons/star.svg";
 
 export default function WeeklyPlans() {
   return (
-    <section className="bg-orange px-6 md:px-20 py-12 lg:py-20 max-w-screen">
+    <section className="bg-orange px-6 md:px-20 py-8 md:py-16 max-w-screen">
       <div className="max-w-screen mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
         
         {/* Left Content */}
@@ -47,7 +47,7 @@ export default function WeeklyPlans() {
         </div>
 
         {/* Right Image flush to edge */}
-        <div className="flex-1 flex justify-end -mx-6 md:-mx-16 -my-12 lg:-my-20">
+        <div className="flex-1 justify-end -mx-6 md:-mx-16 -my-12 lg:-my-20 flex">
           <img
             src={weekly}
             alt="Weekly Plans Crate"

@@ -33,8 +33,8 @@ const JuicesPage = () => {
         property="og:image"
         content="https://thefitsip.com/assets/Images/juices-hero.png"
       />
-      <Meta property="og:url" content="https://thefitsip.com/juices" />
-      <MetaLink rel="canonical" href="https://thefitsip.com/juices" />
+      <Meta property="og:url" content="https://thefitsip.in/juices" />
+      <MetaLink rel="canonical" href="https://thefitsip.in/juices" />
 
       {/* Page Sections */}
       <JuicesHero />
