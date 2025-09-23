@@ -1,18 +1,18 @@
 // src/data/juicesContent.js
 
 // Import juice images
-import abcJuice from "../assets/Images/juicenshots/abc.webp";
-import carrotSwings from "../assets/Images/juicenshots/carrot.webp";
-import greenJuice from "../assets/Images/juicenshots/green.webp";
-import ashgourdAmla from "../assets/Images/juicenshots/ash.webp";
-import metabolismBooster from "../assets/Images/juicenshots/metabolism.webp";
-import hydratingBooster from "../assets/Images/juicenshots/hydrating.webp";
-import pineappleCucumb from "../assets/Images/juicenshots/pineapple.webp";
-import baelMint from "../assets/Images/juicenshots/bael.webp";
-import karelaSip from "../assets/Images/juicenshots/karela.webp";
-import detoxH2o from "../assets/Images/juicenshots/detox.webp";
-import cucumberAmla from "../assets/Images/juicenshots/cucumb-amla.webp";
-import ashgKarelaAmla from "../assets/Images/juicenshots/ash-karela.webp";
+// import abcJuice from "../assets/Images/juicenshots/abc.webp";
+// import carrotSwings from "../assets/Images/juicenshots/carrot.webp";
+// import greenJuice from "../assets/Images/juicenshots/green.webp";
+// import ashgourdAmla from "../assets/Images/juicenshots/ash.webp";
+// import metabolismBooster from "../assets/Images/juicenshots/metabolism.webp";
+// import hydratingBooster from "../assets/Images/juicenshots/hydrating.webp";
+// import pineappleCucumb from "../assets/Images/juicenshots/pineapple.webp";
+// import baelMint from "../assets/Images/juicenshots/bael.webp";
+// import karelaSip from "../assets/Images/juicenshots/karela.webp";
+// import detoxH2o from "../assets/Images/juicenshots/detox.webp";
+// import cucumberAmla from "../assets/Images/juicenshots/cucumb-amla.webp";
+// import ashgKarelaAmla from "../assets/Images/juicenshots/ash-karela.webp";
 
 // Replace with your WhatsApp number
 const whatsappBase = "https://wa.me/9036024955?text=";
@@ -33,7 +33,7 @@ const juicesContent = [
     ingredients: "Carrot, Beetroot, Amla, Mint",
     calories: "Calories (Approx.) 85",
     price: "₹79",
-    image: carrotSwings,
+    image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758476938/carrot_bfhbzy.webp",
     link: `${whatsappBase}Hi, I would like to order CARROT SWINGS SIP.`,
   },
   {
@@ -42,7 +42,7 @@ const juicesContent = [
     ingredients: "Celery, Kale, Mint, Spinach, Amla...",
     calories: "Calories (Approx.) 80",
     price: "₹79",
-    image: greenJuice,
+    image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758476939/green_qlqyv1.webp",
     link: `${whatsappBase}Hi, I would like to order THE GREEN JUICE.`,
   },
   {
@@ -51,7 +51,7 @@ const juicesContent = [
     ingredients: "Ash Gourd, Amla, Ginger, Mint",
     calories: "Calories (Approx.) 30",
     price: "₹79",
-    image: ashgourdAmla,
+    image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758476938/ash_ic0xez.jpg",
     link: `${whatsappBase}Hi, I would like to order ASH GOURD & AMLA SIP.`,
   },
   {
@@ -60,7 +60,7 @@ const juicesContent = [
     ingredients: "Pomegranate, Beetroot, Mint",
     calories: "Calories (Approx.) 80",
     price: "₹99",
-    image: metabolismBooster,
+    image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758476948/metabolism_cex3dt.webp",
     link: `${whatsappBase}Hi, I would like to order METABOLISM BOOSTER.`,
   },
   {
@@ -69,7 +69,7 @@ const juicesContent = [
     ingredients: "Celery, Kale, Mint, Spinach, Amla...",
     calories: "Calories (Approx.) 80",
     price: "₹79",
-    image: hydratingBooster,
+    image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758476946/hydrating_nudd81.webp",
     link: `${whatsappBase}Hi, I would like to order HYDRATING BOOSTER.`,
   },
   {
@@ -78,7 +78,7 @@ const juicesContent = [
     ingredients: "Pineapple, Cucumber, Ginger, Mint",
     calories: "Calories (Approx.) 80",
     price: "₹79",
-    image: pineappleCucumb,
+    image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758476976/pineapple_dmkvus.webp",
     link: `${whatsappBase}Hi, I would like to order PINEAPPLE CUCUMB SIP.`,
   },
   {
@@ -87,7 +87,7 @@ const juicesContent = [
     ingredients: "Bael, Mint, Ginger, Apple",
     calories: "Calories (Approx.) 80",
     price: "₹79",
-    image: baelMint,
+    image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758476937/bael_igwx5u.webp",
     link: `${whatsappBase}Hi, I would like to order BAEL & MINT JUICE.`,
   },
   {
@@ -96,7 +96,7 @@ const juicesContent = [
     ingredients: "Karela, Cucumber, Ginger, Mint",
     calories: "Calories (Approx.) 30",
     price: "₹79",
-    image: karelaSip,
+    image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758476947/karela_rm9zqv.webp",
     link: `${whatsappBase}Hi, I would like to order KARELA SIP.`,
   },
   {
@@ -105,7 +105,7 @@ const juicesContent = [
     ingredients: "Beetroot, Cucumber, Pineapple...",
     calories: "Calories (Approx.) 10",
     price: "₹69",
-    image: detoxH2o,
+    image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758476939/detox_rvcd8c.webp",
     link: `${whatsappBase}Hi, I would like to order DETOX H20.`,
   },
   {
@@ -114,7 +114,7 @@ const juicesContent = [
     ingredients: "Amla, Cucumber, Ginger, Mint",
     calories: "Calories (Approx.) 40",
     price: "₹79",
-    image: cucumberAmla,
+    image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758476939/cucumb-amla_kdudpc.webp",
     link: `${whatsappBase}Hi, I would like to order CUCUMBER AMLA MINT.`,
   },
   {
@@ -123,7 +123,7 @@ const juicesContent = [
     ingredients: "Ash Gourd, Beetroot, Karela, Amla",
     calories: "Calories (Approx.) 30",
     price: "₹79",
-    image: ashgKarelaAmla,
+    image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758476938/ash-karela_cakety.jpg",
     link: `${whatsappBase}Hi, I would like to order ASH G. KARELA & AMLA.`,
   },
 ];

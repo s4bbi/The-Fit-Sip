@@ -32,7 +32,7 @@ const Hero = () => {
 
         {/* Button */}
         <div className="flex mb-6">
-          <PrimaryButton href="https://wa.link/24skdz" text="CHAT NOW" />
+          <PrimaryButton href="https://wa.link/24skdz" text="ORDER NOW" />
         </div>
 
         {/* Responsive Swiper Slider */}

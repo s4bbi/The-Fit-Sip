@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import juicesHeroImg from "../../assets/Images/juices-hero.png"; 
+// import juicesHeroImg from "../../assets/Images/juices-hero.png"; 
 import { FaWhatsapp } from "react-icons/fa";
 
 const JuicesHero = () => {
@@ -45,7 +45,7 @@ const JuicesHero = () => {
         {/* Hero Image */}
         <div className="w-full flex justify-center">
           <img
-            src={juicesHeroImg}
+            src={"https://res.cloudinary.com/dsxgs3tct/image/upload/v1758474789/juices-hero_srnqc8.png"}
             alt="Fresh Juices Variety"
             className="rounded-2xl w-screen object-cover shadow-md"
           />
