@@ -39,8 +39,8 @@ const SmoothiesGrid = () => {
 
             {/* Prices & Buttons (Visible on Both) */}
             <div className="mt-3 space-y-3">
-              {/* Miniature */}
-              <div className="flex items-center justify-between">
+              
+              {/* <div className="flex items-center justify-between">
                 <div>
                   <p className="text-xs text-gray-500">Miniature</p>
                   <span className="font-cgEB text-black">{smoothie.miniaturePrice}</span>
@@ -53,7 +53,7 @@ const SmoothiesGrid = () => {
                 >
                   <FaWhatsapp className="w-4 h-4" /> BUY NOW
                 </a>
-              </div>
+              </div> */}
 
               {/* Regular */}
               <div className="flex items-center justify-between">

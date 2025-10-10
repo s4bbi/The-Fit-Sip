@@ -6,7 +6,7 @@ import star from "../../assets/Icons/star.svg";
 
 export default function WeeklyPlans() {
   return (
-    <section className="bg-orange px-6 md:px-20 pt-10 max-w-screen">
+    <section className="bg-orange px-6 md:px-20 pb-10 max-w-screen">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-10">
         
         {/* Left Content */}

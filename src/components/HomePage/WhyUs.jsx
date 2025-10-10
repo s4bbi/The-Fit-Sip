@@ -16,7 +16,7 @@ const items = [
 
 export default function WhyUs() {
   return (
-    <section className="max-w-screen mx-auto bg-white px-4 sm:px-6 md:px-20 pt-10 md:py-12">
+    <section className="max-w-screen mx-auto bg-white px-4 sm:px-6 md:px-20 py-8">
       <div className="text-center">
         {/* Section Title */}
         <h2 className="text-2xl md:text-3xl font-cgEB text-black mb-8 sm:mb-12">

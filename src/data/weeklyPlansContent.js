@@ -34,7 +34,7 @@ export const weeklyPlansContent = {
     {
       title: "Health is Wealth",
       tagline: "Overall Fitness & Immunity Booster",
-      price: "₹520/week only",
+      price: "₹480/week only",
       schedule: [
         { day: "MONDAY", item: "ABC SIP" },
         { day: "TUESDAY", item: "HYDRATING BOOSTER" },
@@ -52,7 +52,7 @@ export const weeklyPlansContent = {
     {
       title: "Calm & Control",
       tagline: "Diabetic & B.P. Control",
-      price: "₹500/week only",
+      price: "₹480/week only",
       schedule: [
         { day: "MONDAY", item: "CUCUMBER AMLA MINT" },
         { day: "TUESDAY", item: "GREEN JUICE" },
@@ -67,7 +67,7 @@ export const weeklyPlansContent = {
     {
       title: "Reboot Kickstart",
       tagline: "Refreshing Health Journey",
-      price: "₹520/week only",
+      price: "₹480/week only",
       schedule: [
         { day: "MONDAY", item: "ABC SIP" },
         { day: "TUESDAY", item: "HYDRATING BOOSTER" },
@@ -85,7 +85,7 @@ export const weeklyPlansContent = {
     {
       title: "Clear & Shine",
       tagline: "Skin Care & Glow",
-      price: "₹500/week only",
+      price: "₹480/week only",
       schedule: [
         { day: "MONDAY", item: "ABC SIP" },
         { day: "TUESDAY", item: "THE GREEN JUICE" },
@@ -100,7 +100,7 @@ export const weeklyPlansContent = {
     {
       title: "The Fruit Bowl Plan",
       tagline: "Fresh Cut Fruits",
-      price: "₹550/week only",
+      price: "₹779/week only",
       schedule: [
         { day: "MONDAY", item: "Enjoy a bowl full of natural goodness…" },
         { day: "TUESDAY", item: "Enjoy a bowl full of natural goodness…" },
@@ -133,7 +133,7 @@ export const weeklyPlansContent = {
     {
       title: "Balance & Boost",
       tagline: "Everyday Wellness Kit (Juices, shots & green teas)",
-      price: "₹600/week only",
+      price: "₹480/week only",
       schedule: [
         { day: "MONDAY", item: "THE SPROUT HARVEST" },
         { day: "TUESDAY", item: "FRUIT BOWL" },
@@ -151,7 +151,7 @@ export const weeklyPlansContent = {
     {
       title: "OverNight Oats",
       tagline: "Fuel Your Morning with Oats Jar",
-      price: "₹500/week only",
+      price: "₹779/week only",
       schedule: [
         { day: "MONDAY", item: "MANGO DREAM" },
         { day: "TUESDAY", item: "COCOA PEANUTS" },
@@ -166,7 +166,7 @@ export const weeklyPlansContent = {
     {
       title: "Healthy Breakfast",
       tagline: "Fresh, Filling & Balanced",
-      price: "₹550/week only",
+      price: "₹849/week only",
       schedule: [
         { day: "MONDAY", item: "THE SPROUT HARVEST" },
         { day: "TUESDAY", item: "FRUIT BOWL" },

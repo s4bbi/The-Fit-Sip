@@ -15,7 +15,7 @@ const images = [hero1, hero2, hero3, hero4];
 
 const Hero = () => {
   return (
-    <section className="bg-white flex flex-col pt-4 pb-2 md:pb-12">
+    <section className="bg-white flex flex-col pt-4 pb-2 md:pb-8">
       <div className="flex flex-col items-center text-center px-4 sm:px-6 md:px-12">
         {/* Heading */}
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-cgEB text-gray-900 leading-snug mb-3">

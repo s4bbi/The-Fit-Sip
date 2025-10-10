@@ -40,8 +40,8 @@ const JuicesPage = () => {
       <JuicesHero />
       <JuicesGrid />
       <WhyJuices />
-      <TeasGrid />
-      <WhyTeas />
+      {/* <TeasGrid />
+      <WhyTeas /> */}
       <WeeklyPlans />
     </main>
   );

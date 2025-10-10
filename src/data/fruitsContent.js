@@ -12,7 +12,7 @@ const shotsContent = [
     title: "NATURAL JUICY BOWL",
     ingredients: "Apples, papaya, grapes & more!",
     calories: "Calories (Approx.) 180",
-    price: "₹139",
+    price: "₹149",
     image: "https://res.cloudinary.com/dsxgs3tct/image/upload/v1758474788/fruitbowl_zjhras.png",
     link: `${whatsappBase}Hi, I would like to order NATURAL JUICY BOWL shot.`,
   },

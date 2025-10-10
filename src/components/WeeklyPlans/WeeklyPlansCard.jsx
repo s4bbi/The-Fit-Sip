@@ -30,7 +30,7 @@ const WeeklyPlanCard = ({ title, tagline, price, schedule, whatsappUrl }) => {
           rel="noopener noreferrer"
           className="flex items-center gap-2 bg-orange text-white px-4 py-2 rounded-full hover:bg-orange-600 transition text-sm font-sB"
         >
-          <FaWhatsapp className="w-4 h-4" /> BUY NOW
+          <FaWhatsapp className="w-4 h-4" /> ORDER NOW
         </a>
       </div>
     </div>

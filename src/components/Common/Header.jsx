@@ -50,9 +50,19 @@ const Header = () => {
     const bottomLine = hamburgerRef.current.querySelector(".line3");
 
     if (menuOpen) {
-      gsap.to(topLine, { rotation: 45, y: 6, duration: 0.3, transformOrigin: "center" });
+      gsap.to(topLine, {
+        rotation: 45,
+        y: 6,
+        duration: 0.3,
+        transformOrigin: "center",
+      });
       gsap.to(middleLine, { opacity: 0, duration: 0.3 });
-      gsap.to(bottomLine, { rotation: -45, y: -6, duration: 0.3, transformOrigin: "center" });
+      gsap.to(bottomLine, {
+        rotation: -45,
+        y: -6,
+        duration: 0.3,
+        transformOrigin: "center",
+      });
     } else {
       gsap.to(topLine, { rotation: 0, y: 0, duration: 0.3 });
       gsap.to(middleLine, { opacity: 1, duration: 0.3 });
@@ -66,7 +76,8 @@ const Header = () => {
       window.location.href = "/#offerings";
     } else {
       const offeringsSection = document.getElementById("offerings");
-      if (offeringsSection) offeringsSection.scrollIntoView({ behavior: "smooth" });
+      if (offeringsSection)
+        offeringsSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -74,7 +85,12 @@ const Header = () => {
     <header ref={headerRef} className="w-full bg-white shadow-md font-sM">
       {/* Top Announcement Bar */}
       <div className="animate-header w-full bg-green text-white text-sm sm:text-base font-sR text-center py-2 px-4">
-        🚚 Free delivery, every morning before <span className="font-sB">8 AM</span>{" "}
+        🚚 Free delivery, every morning before{" "}
+        <span className="font-sB">8 AM</span>
+        {/* Line break only for small screens */}
+        <br className="block sm:hidden" />
+        {/* Inline on larger screens */}
+        <span className="hidden sm:inline">&nbsp;</span>
         WhatsApp us at{" "}
         <a
           href="https://wa.me/919036024955"
@@ -95,13 +111,25 @@ const Header = () => {
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex -mr-14 items-center space-x-8 text-black animate-header h-full">
-          <Link to="/" className="hover:text-green-500">HOME</Link>
-          <a href="#offerings" onClick={handleProductsClick} className="hover:text-green-500 cursor-pointer">
+          <Link to="/" className="hover:text-green-500">
+            HOME
+          </Link>
+          <a
+            href="#offerings"
+            onClick={handleProductsClick}
+            className="hover:text-green-500 cursor-pointer"
+          >
             PRODUCTS
           </a>
-          <Link to="/weekly-plans" className="hover:text-green-500">PLANS</Link>
-          <Link to="/about" className="hover:text-green-500">ABOUT US</Link>
-          <Link to="/contact" className="hover:text-green-500">CONTACT US</Link>
+          <Link to="/weekly-plans" className="hover:text-green-500">
+            PLANS
+          </Link>
+          <Link to="/about" className="hover:text-green-500">
+            ABOUT US
+          </Link>
+          <Link to="/contact" className="hover:text-green-500">
+            CONTACT US
+          </Link>
         </nav>
 
         {/* Desktop Chat Button */}
@@ -122,8 +150,16 @@ const Header = () => {
       </div>
 
       {/* ✅ Continuous Scrolling Marquee Below Header */}
-      <Marquee gradient={false} speed={50} className="bg-green text-white py-2 font-sB text-sm sm:text-base">
-        Weekly Subscription Starts @ Rs. 66/Day &nbsp; • &nbsp; Free Delivery Every Morning in Gurgaon &nbsp; • &nbsp; Weekly Subscription Starts @ Rs. 66/Day &nbsp; • &nbsp; Free Delivery Every Morning in Gurgaon &nbsp; • &nbsp; Weekly Subscription Starts @ Rs. 66/Day &nbsp; • &nbsp; Free Delivery Every Morning in Gurgaon &nbsp; • &nbsp;
+      <Marquee
+        gradient={false}
+        speed={50}
+        className="bg-green text-white py-2 font-sB text-sm sm:text-base"
+      >
+        Weekly Subscription Starts @ Rs. 66/Day &nbsp; • &nbsp; Free Delivery
+        Every Morning in Gurgaon &nbsp; • &nbsp; Weekly Subscription Starts @
+        Rs. 66/Day &nbsp; • &nbsp; Free Delivery Every Morning in Gurgaon &nbsp;
+        • &nbsp; Weekly Subscription Starts @ Rs. 66/Day &nbsp; • &nbsp; Free
+        Delivery Every Morning in Gurgaon &nbsp; • &nbsp;
       </Marquee>
 
       {/* Mobile Menu */}
@@ -133,13 +169,25 @@ const Header = () => {
         style={{ height: "0px" }}
       >
         <nav className="flex flex-col space-y-2 p-4 text-black">
-          <Link to="/" className="hover:text-green-500">HOME</Link>
-          <a href="#offerings" onClick={handleProductsClick} className="hover:text-green-500 cursor-pointer">
+          <Link to="/" className="hover:text-green-500">
+            HOME
+          </Link>
+          <a
+            href="#offerings"
+            onClick={handleProductsClick}
+            className="hover:text-green-500 cursor-pointer"
+          >
             PRODUCTS
           </a>
-          <Link to="/weekly-plans" className="hover:text-green-500">PLANS</Link>
-          <Link to="/about" className="hover:text-green-500">ABOUT US</Link>
-          <Link to="/contact" className="hover:text-green-500">CONTACT US</Link>
+          <Link to="/weekly-plans" className="hover:text-green-500">
+            PLANS
+          </Link>
+          <Link to="/about" className="hover:text-green-500">
+            ABOUT US
+          </Link>
+          <Link to="/contact" className="hover:text-green-500">
+            CONTACT US
+          </Link>
           <a
             href="https://wa.me/919036024955"
             target="_blank"

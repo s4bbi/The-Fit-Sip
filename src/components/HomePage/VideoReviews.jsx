@@ -16,7 +16,7 @@ export default function VideoReviews() {
   };
 
   return (
-    <section className="bg-white px-4 sm:px-6 md:px-20 my-8">
+    <section className="bg-white px-4 sm:px-6 md:px-20 mb-8">
       <div className="max-w-screen mx-auto">
         {/* Section Title */}
         <h2 className="text-2xl md:text-3xl text-center font-cgEB text-gray-900 mb-2">

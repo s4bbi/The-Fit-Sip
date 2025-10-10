@@ -17,7 +17,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="bg-white px-6 md:px-20 mt-8 md:my-8 relative">
+    <section className="bg-white px-6 md:px-20 my-8 relative">
       {/* Section Title */}
       <h2 className="max-w-screen mx-auto text-2xl md:text-3xl font-cgEB mb-2 text-gray-900 text-center">
         What Our
