@@ -17,7 +17,7 @@ const Hero = () => {
     <section className="bg-white flex flex-col pt-4 pb-2 md:pb-8">
       <div className="flex flex-col items-center text-center px-4 sm:px-6 md:px-12">
         {/* Heading */}
-        <h1 className="text-2xl md:text-4xl lg:text-5xl font-cgEB text-gray-900 leading-snug mb-3">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-cgEB text-gray-900 leading-snug mb-3 pt-4">
           Looking for a <span className="text-green">healthier</span> way to{" "}
           <br className="hidden sm:block" />
           begin your day?
@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
 
         {/* Swiper Slider */}
-        <div className="w-full rounded-2xl shadow-md overflow-hidden">
+        <div className="w-full rounded-2xl shadow-md overflow-hidden mt-4">
           <Swiper
             modules={[Autoplay, Pagination]}
             autoplay={{ delay: 4000, disableOnInteraction: false }}
