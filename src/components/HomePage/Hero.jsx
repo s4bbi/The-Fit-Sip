@@ -9,7 +9,6 @@ import hero1 from "../../assets/Images/heroimg.png";
 import hero2 from "../../assets/Images/weekly-hero.png";
 import hero3 from "../../assets/Images/fruit-hero.png";
 import hero4 from "../../assets/Images/slideshow/juices.webp";
-// import hero5 from "../../assets/Images/slideshow/shots.png";
 
 const images = [hero1, hero2, hero3, hero4];
 
@@ -25,17 +24,29 @@ const Hero = () => {
         </h1>
 
         <p className="text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl font-sR max-w-3xl mb-6 px-4 sm:px-6 md:px-12">
-          Weekly subscription delivery of fresh juices, shots, salads, oats & smoothies{" "}
-          <br className="hidden sm:block" />
-          free before 8 AM in Gurgaon.
+          <span className="text-green font-sB">The Fit Sip</span> is delivering
+          fresh & healthy juices, shots, salads, oats, and more every morning
+          across Gurgaon with{" "}
+          <span className="font-sB">weekly subscriptions</span> for everything!
         </p>
 
-        {/* Button */}
-        <div className="flex mb-6">
+        {/* Buttons */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
           <PrimaryButton href="https://wa.link/24skdz" text="ORDER NOW" />
+
+          {/* Explore Menu Button */}
+          <a
+            href="https://pdflink.to/3dbf1bb9/" // 🔗 Replace with your actual menu PDF link
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center bg-white border-2 border-green text-green px-6 py-3 rounded-full font-sB 
+                       hover:bg-green hover:text-white transition-all duration-300 shadow-sm hover:shadow-md text-sm sm:text-base"
+          >
+            Explore Our Full Menu
+          </a>
         </div>
 
-        {/* Responsive Swiper Slider */}
+        {/* Swiper Slider */}
         <div className="w-full rounded-2xl shadow-md overflow-hidden">
           <Swiper
             modules={[Autoplay, Pagination]}
