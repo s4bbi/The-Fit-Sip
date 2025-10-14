@@ -40,7 +40,7 @@ const JuicesGrid = () => {
                     className="inline-flex items-center gap-1 bg-green text-white px-3 py-1.5 rounded-full text-xs font-sB hover:bg-green-600 transition"
                   >
                     <FaWhatsapp className="h-3 w-3" />
-                    BUY
+                    ORDER
                   </a>
                 </div>
               </div>

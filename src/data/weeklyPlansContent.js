@@ -17,21 +17,6 @@ export const weeklyPlansContent = {
         "https://wa.me/9036024955?text=I'm interested in 100 ML Shots Plan",
     },
     {
-      title: "Fresh Lean Detox",
-      tagline: "Weight Management, Gut Health & Detox",
-      price: "₹480/week only",
-      schedule: [
-        { day: "MONDAY", item: "ASH GOURD AMLA" },
-        { day: "TUESDAY", item: "PINEAPPLE CUCUMBER" },
-        { day: "WEDNESDAY", item: "ABC SIP" },
-        { day: "THURSDAY", item: "GREEN JUICE / BAEL MINT JUICE" },
-        { day: "FRIDAY", item: "DETOX H20" },
-        { day: "SATURDAY", item: "ABC SIP" },
-      ],
-      whatsappUrl:
-        "https://wa.me/9036024955?text=I'm interested in Fresh Lean Detox Plan",
-    },
-    {
       title: "Health is Wealth",
       tagline: "Overall Fitness & Immunity Booster",
       price: "₹480/week only",
@@ -63,6 +48,21 @@ export const weeklyPlansContent = {
       ],
       whatsappUrl:
         "https://wa.me/9036024955?text=I'm interested in Calm & Control Plan",
+    },
+    {
+      title: "Fresh Lean Detox",
+      tagline: "Weight Management, Gut Health & Detox",
+      price: "₹480/week only",
+      schedule: [
+        { day: "MONDAY", item: "ASH GOURD AMLA" },
+        { day: "TUESDAY", item: "PINEAPPLE CUCUMBER" },
+        { day: "WEDNESDAY", item: "ABC SIP" },
+        { day: "THURSDAY", item: "GREEN JUICE / BAEL MINT JUICE" },
+        { day: "FRIDAY", item: "DETOX H20" },
+        { day: "SATURDAY", item: "ABC SIP" },
+      ],
+      whatsappUrl:
+        "https://wa.me/9036024955?text=I'm interested in Fresh Lean Detox Plan",
     },
     {
       title: "Reboot Kickstart",

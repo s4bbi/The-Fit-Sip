@@ -13,7 +13,7 @@ const WhyJuices = () => {
           </h2>
           <p className="text-gray-700 text-sm sm:text-base md:text-lg font-sR leading-relaxed">
             Our juices are cold-pressed fresh every morning to lock in maximum
-            nutrition and natural flavor. No added sugar, no preservatives —
+            nutrition and natural flavor. No added sugar, no preservatives
             just pure fruits and vegetables in every bottle. From immunity-boosting
             blends to refreshing citrus, we’ve got a juice for every mood.
           </p>
