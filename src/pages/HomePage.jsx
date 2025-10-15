@@ -15,10 +15,10 @@ export default function HomePage() {
   return (
     <div className="max-w-screen mx-auto flex flex-col">
       {/* ✅ SEO Meta Tags */}
-      <Title>The Fit Sip | Fresh Juices, Smoothies & Healthy Meals in Gurgaon</Title>
+      <Title>The Fit Sip | Fresh Juices, Salads & More, Delivery in Gurgaon</Title>
       <Meta
         name="description"
-        content="Fit Sip, FitSip, Order cold-pressed juices, smoothies, salads, oats, and fruit bowls delivered fresh before 8 AM in Gurgaon. 100% natural, no sugar, no preservatives."
+        content="The Fit Sip, Order cold-pressed juices, smoothies, salads, oats, and fruit bowls delivered fresh before 8 AM in Gurgaon. 100% natural, no sugar, no preservatives, Fit Sip, FitSip."
       />
       <Meta
         name="keywords"
