@@ -18,16 +18,16 @@ export default function HomePage() {
       <Title>The Fit Sip | Fresh Juices, Smoothies & Healthy Meals in Gurgaon</Title>
       <Meta
         name="description"
-        content="Order cold-pressed juices, smoothies, salads, oats, and fruit bowls delivered fresh before 8 AM in Gurgaon. 100% natural, no sugar, no preservatives."
+        content="Fit Sip, FitSip, Order cold-pressed juices, smoothies, salads, oats, and fruit bowls delivered fresh before 8 AM in Gurgaon. 100% natural, no sugar, no preservatives."
       />
       <Meta
         name="keywords"
-        content="cold pressed juices Gurgaon, healthy smoothies Gurgaon, salad delivery Gurgaon, oats breakfast Gurgaon, fruit bowls Gurgaon, The Fit Sip"
+        content="Fit Sip, FitSip, cold pressed juices Gurgaon, healthy smoothies Gurgaon, salad delivery Gurgaon, oats breakfast Gurgaon, fruit bowls Gurgaon, The Fit Sip"
       />
       <Meta property="og:title" content="The Fit Sip | Fresh Juices & Healthy Meals" />
       <Meta
         property="og:description"
-        content="Healthy cold-pressed juices, shots, smoothies, oats & fruit bowls delivered fresh every morning in Gurgaon."
+        content="Fit Sip, FitSip, Healthy cold-pressed juices, shots, smoothies, oats & fruit bowls delivered fresh every morning in Gurgaon."
       />
       <Meta property="og:type" content="website" />
       <Meta property="og:url" content="https://thefitsip.in" />
